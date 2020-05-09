@@ -1,0 +1,2 @@
+# remote-school
+project
