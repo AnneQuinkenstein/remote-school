@@ -12,8 +12,11 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; 
     align-items: center;
+    width: 100%;
+    background: #F3F1E9;
+    padding: 20px;
     /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
     /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
   }
@@ -21,6 +24,7 @@ ul {
   li {
     /*display: inline;
     float: none; */
+    margin: 0% 5%; 
   }
 
   li a {
