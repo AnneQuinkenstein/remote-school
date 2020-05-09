@@ -1,0 +1,23 @@
+/* --Footer section --*/
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col{
+    display: flex;
+    justify-content: space-between;
+}
+.network-icons{
+    height: 25px;
+    width: 25px;
+}
+
+.social-list{
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+.social-list li{
+    padding: 0 0 0 10px;
+}
