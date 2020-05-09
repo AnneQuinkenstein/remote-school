@@ -1,18 +1,38 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: ‘Montserrat’, sans-serif;
+    color: #261C52;
+    background-color: #F4F0EA;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
+  }
+
+  li {
+    /*display: inline;
+    float: none; */
   }
 
   li a {
-    display: block;
-    width: 60px;
+      text-decoration: none;
   }
 
   li a:hover {
-    /*how do we know, that we hover? - just do the pointer?*/
+      cursor: cell;
+    /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
+  }
+
+  li a:active {
     background-color: #261C52;
     color: #F3F1E9;
   }
