@@ -1,10 +1,18 @@
-li a {
-    display: block;
-    width: 60px;
-  }
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  li a {
+    display: block;
+    width: 60px;
+  }
+
+  li a:hover {
+    /*how do we know, that we hover? - just do the pointer?*/
+    background-color: #261C52;
+    color: #F3F1E9;
   }
