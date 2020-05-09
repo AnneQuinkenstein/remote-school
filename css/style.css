@@ -1,10 +1,46 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    box-sizing:border-box;
+    font-family: ‘Montserrat’, sans-serif;
     color: #261C52;
     background-color: #F4F0EA;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    background: #F3F1E9;
+    padding: 20px;
+    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
+  }
+
+  li {
+    /*display: inline;
+    float: none; */
+    margin: 0% 5%; 
+  }
+
+  li a {
+      text-decoration: none;
+  }
+
+  li a:hover {
+      cursor: cell;
+    /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
+  }
+
+
+  li a:active {
+    background-color: #261C52;
+    color: #F3F1E9;
+  }
 
 .banner{
     position: relative;
@@ -44,4 +80,3 @@
     justify-content: center;
     text-align: center;
 }
-
