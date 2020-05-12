@@ -1,3 +1,52 @@
+/* --Footer section --*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*footer-col{
+    display: flex;
+    justify-content: space-between;
+    color: #261C52;
+}
+
+.footer-col li{
+    list-style: none;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: #261C52;
+    
+}
+*/
+
+.footer-logo{
+    width: 25%;
+}
+.network-icons{
+    height: 25px;
+    width: 25px;
+}
+
+.links-social-network{
+    display: flex;
+    flex-direction: column;
+}
+.social-list{
+    list-style: none;
+    padding: 0;
+}
+.social-list li{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list li a{
+    flex-direction: row;
+}
+
 * {
     margin: 0;
     padding: 0;
