@@ -19,7 +19,6 @@ footer{
     background-color: #261C52;
 }
 
-
 .footer-col li{
     list-style: none;
     margin: 0;
@@ -29,7 +28,7 @@ footer{
 .footer-col li a{
     padding: 0 25px;
     color:#F4F0EA;
-    font-size: 18px; 
+    font-size: 1.125rem; 
     font-weight: lighter;
 }
 
@@ -42,8 +41,11 @@ footer{
     color: #FFD33A;
 }
 
+.footer-logo{
+    align-self: center;
+}
 .img-logo {
-    width: 50%;
+    width: 65%;
 }
 
 .network-icons{
@@ -66,9 +68,10 @@ footer{
     flex-direction: column;
 }
 .links-social-network p{
-    font-size: 18px; 
+    font-size: 1.125rem; 
     font-weight: lighter;
 }
+
 .social-list{
     list-style: none;
     padding: 10px 0;
@@ -76,15 +79,17 @@ footer{
     justify-content: space-between;
     background-color: #261C52;
 }
+
 .social-list li{
     margin: 0;
     /*padding: 5px 0;*/
     background-color: #261C52;
-
 }
+
 .social-list li a{
     padding: 5px 20px;
 }
+
 .social-list li a:nth-child(1){
     padding-left: 0px;
 }
@@ -92,9 +97,7 @@ footer{
     padding-right: 0px;
 }
 
-/*.social-list li a:hover{
-    color: yellow;}
- --End Footer section --*/
+/*--End Footer section --*/
 
 * {
     margin: 0;
