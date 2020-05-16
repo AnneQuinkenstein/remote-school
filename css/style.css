@@ -73,34 +73,32 @@
 }
 
 .nav-logo img{
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     align: center; 
 }
 
-.nav-links{
+.nav-links .nav-things {
     list-style: none;
-    display: flex;
+    display: flex; 
 }
 
 .nav-item{
     display: inline-block; 
     padding: 10px 15px; 
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
 }
 
-.nav-item:hover {
+.nav-item a:hover {
     cursor: cell;
     /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
 }
-    
-    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
-    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
 
-    .nav-item a {
+.nav-item a {
         text-decoration: none;
     }
   
-.nav-item a:active {
+.active {
     background-color: #261C52;
     color: #F3F1E9;
   }
