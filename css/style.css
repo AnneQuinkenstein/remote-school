@@ -50,7 +50,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: ‘Montserrat’, sans-serif;
     color: #261C52;
     background-color: #F4F0EA;
@@ -58,45 +58,49 @@
 
 /* --Navbar section --*/
 
-nav {
-   /* display: flex;*/
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+.navbar {
     width: 100%;
-    background: #F3F1E9;
-    padding: 20px;
-    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
-    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
-  }
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px; 
+   padding-right: 10px;   
+   background: #F3F1E9; 
+}
 
 .nav-logo {
-    align: left; 
+    display: inline-block;
 }
 
-nav li {
-    /*display: inline;
-    float: none; */
-    margin: 0% 5%; 
-  }
+.nav-logo img{
+    width: 100px; 
+    height: 100px; 
+    align: center; 
+}
 
-nav li a {
-      text-decoration: none;
-  }
+.nav-links{
+    list-style: none;
+    display: flex;
+}
 
-nav li a:hover {
-      cursor: cell;
+.nav-item{
+    display: inline-block; 
+    padding: 10px 15px; 
+}
+
+.nav-item:hover {
+    cursor: cell;
     /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
-  }
+}
+    
+    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
 
-
-nav li a:active {
+    .nav-item a {
+        text-decoration: none;
+    }
+  
+.nav-item a:active {
     background-color: #261C52;
     color: #F3F1E9;
   }
