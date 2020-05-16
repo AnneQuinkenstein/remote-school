@@ -58,7 +58,11 @@
 
 /* --Navbar section --*/
 
-ul {
+nav {
+   /* display: flex;*/
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,26 +76,33 @@ ul {
     /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
   }
 
-  li {
+.nav-logo {
+    align: left; 
+}
+
+nav li {
     /*display: inline;
     float: none; */
     margin: 0% 5%; 
   }
 
-  li a {
+nav li a {
       text-decoration: none;
   }
 
-  li a:hover {
+nav li a:hover {
       cursor: cell;
     /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
   }
 
 
-  li a:active {
+nav li a:active {
     background-color: #261C52;
     color: #F3F1E9;
   }
+
+
+/* --Info section --*/
 
 .banner{
     position: relative;
