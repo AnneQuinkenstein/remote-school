@@ -117,8 +117,7 @@
 
 .navApplyButton { 
     background-color: #ffd33a;
-	box-shadow: inset 0px 0px 6px #fff, inset 0px -1px 6px #fff;
-    border: none; 
+	border: none; 
   }
 
 button{
@@ -130,7 +129,7 @@ button{
 
 
 .navApplyButton:hover,.navSignButton:hover {
-	box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+	box-shadow: #261C52 4px 0.3em 0em 0px; 
 }
 
 
