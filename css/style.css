@@ -59,7 +59,7 @@
 /* --Navbar section --*/
 
 .navbar {
-    width: 100%;
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -78,30 +78,54 @@
     align: center; 
 }
 
-.nav-links .nav-things {
+.nav-links, .nav-things {
     list-style: none;
     display: flex; 
 }
 
-.nav-item{
+.nav-item, .navApplyButton, .navSignButton{
     display: inline-block; 
     padding: 10px 15px; 
+    text-align: center;
+    text-decoration: none;
     /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
 }
 
-.nav-item a:hover {
-    cursor: cell;
-    /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
+
+.nav-item:hover,a:hover{
+    cursor:cell; 
 }
 
 .nav-item a {
-        text-decoration: none;
+    text-decoration: none;
     }
   
 .active {
-    background-color: #261C52;
-    color: #F3F1E9;
+    color: #ffd33a;
   }
+
+.navApplyButton, .navSignButton { 
+	border-radius: 1em;
+	margin: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: cell;
+  }
+
+.navSignButton{
+    border: 1px solid #261C52;
+}
+
+.navApplyButton{ 
+    background: linear-gradient(to bottom, white,  #ffd33a);
+	box-shadow: inset 0px 0px 6px #fff, inset 0px -1px 6px #fff;
+    border: none; 
+  }
+
+
+.navApplyButton:hover,.navSignButton:hover {
+	box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
 
 
 /* --Info section --*/
