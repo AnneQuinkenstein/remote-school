@@ -52,6 +52,10 @@
     padding: 0;
     box-sizing:border-box;
     font-family: ‘Montserrat’, sans-serif;
+    text-decoration: none;
+    }
+
+body {
     color: #261C52;
     background-color: #F4F0EA;
 }
@@ -99,33 +103,126 @@ ul {
     width: 100%;
     max-height: 30%;
     justify-content: center;
+    position: relative;
 }
 
 .title-text-container{
     display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: #F4F0EA;
     position: absolute;
     top : 50%;
     left : 50%;
     transform: translate(-50%,-50%);
-    padding: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 10% 7% 10% 7%;
+    width : 47%;
+    height : 50%;
+    border-radius: 20px;
+    margin:auto;
 }
 
-.banner-title{
-    padding: 4%;
-    font-size: 260%;
-    font-weight: 500;
-    justify-content: center;
+.banner-logo{
     text-align: center;
 }
 
 .banner-slogan{
-    padding: 4%;
-    font-size: 180%;
-    font-weight: 300;
+    padding-top: 4%;
+    font-size: 300%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.apply-index-button{
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 280%;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    border-style: none;
+    position: absolute;
+    margin-top : -2%;
+    margin-left : 5%;
+    overflow: visible;
+    background-color: #ffd33a ;
+    text-decoration: none;
+}
+
+.apply-button-link{
+    background-color: #ffd33a ;
+    text-decoration: none;
+}
+
+button5:hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+a5:hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+.separator-div{
+    height:220px;
+}
+
+.index-h2-container{
     justify-content: center;
     text-align: center;
 }
+
+.index-h2 .courses-section{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 230%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+    text-decoration-line: underline;
+    text-decoration-color: #ffd33a;
+    text-underline-offset:0.5em;
+    text-decoration-thickness: 0.1em;
+    text-decoration-skip: -10px;
+   }
+
+.separator-div-small{
+    height:100px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.specific-course-title{
+    text-decoration: none;
+    color:#261C52;
+}
+.courses-box{
+    width : 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.courses-box-img{
+    width : 100%;
+    border-radius: 20px;
+}
+
+.courses-box-title{
+    padding: 5%;
+    font-size: 240%;
+    font-weight: 380;
+}
+
+.courses-box-p{
+    padding: 5%;
+    font-size: 200%;
+    font-weight: 380;
+}
+
