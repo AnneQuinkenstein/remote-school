@@ -50,46 +50,90 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: ‘Montserrat’, sans-serif;
     color: #261C52;
     background-color: #F4F0EA;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 100%;
-    background: #F3F1E9;
-    padding: 20px;
-    /* responsive https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+/* --Navbar section --*/
+
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px; 
+   padding-right: 10px;   
+   background: #F3F1E9; 
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-logo img{
+    width: 200px; 
+    height: 200px; 
+    align: center; 
+}
+
+.nav-links, .nav-things {
+    list-style: none;
+    display: flex; 
+}
+
+.nav-item, .navApplyButton, .navSignButton{
+    display: inline-block; 
+    margin: 1em; 
+    text-align: center;
+    text-decoration: none;
     /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
-  }
-
-  li {
-    /*display: inline;
-    float: none; */
-    margin: 0% 5%; 
-  }
-
-  li a {
-      text-decoration: none;
-  }
-
-  li a:hover {
-      cursor: cell;
-    /* oder cursor: url(),auto; um cursor zu einem Bild zu machen */
-  }
+}
 
 
-  li a:active {
-    background-color: #261C52;
-    color: #F3F1E9;
+.nav-item:hover,a:hover{
+    cursor:cell; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    }
+  
+.active {
+    color: #ffd33a;
   }
+
+.navApplyButton, .navSignButton { 
+	border-radius: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: cell;
+  }
+
+.navSignButton{
+    border: 1px solid #261C52;
+}
+
+.navApplyButton { 
+    background-color: #ffd33a;
+	border: none; 
+  }
+
+button{
+    background-color: transparent;
+    border: none; 
+    display: inline-block;
+    padding: 5% 10px;   
+}
+
+
+.navApplyButton:hover,.navSignButton:hover {
+	box-shadow: #261C52 4px 0.3em 0em 0px; 
+}
+
+
+/* --Info section --*/
 
 .banner{
     position: relative;
