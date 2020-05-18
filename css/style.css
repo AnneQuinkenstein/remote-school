@@ -5,7 +5,6 @@ footer{
     background-color: #261C52;
     padding: 30px 20px;
     color:#F4F0EA; 
-    /*align-items: flex-start;*/
 }
 
 .content-footer-list{
@@ -44,6 +43,7 @@ footer{
 .footer-logo{
     align-self: center;
 }
+
 .img-logo {
     width: 65%;
 }
@@ -67,6 +67,7 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
 .links-social-network p{
     font-size: 1.125rem; 
     font-weight: lighter;
@@ -194,7 +195,8 @@ ul {
 @media (max-width: 600px){
 
 /* --Footer section --*/
-    .footer-col{
-        flex-direction: column;
+    .footer-col {
+        display:flex;
     }
+    
 }
