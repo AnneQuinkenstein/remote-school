@@ -1,3 +1,244 @@
+/* -- General CSS--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    /*This part shoud be on body. Otherwhise, we cannot 
+    change the background-color (it would be overwritten) of different container for example(I had problems with the divs of footer)*/
+    /*font-family: ‘Montserrat’, sans-serif;
+    color: #261C52;
+    background-color: #F4F0EA;*/
+}
+
+body{
+    font-family: ‘Montserrat’, sans-serif;
+    text-decoration: none;
+    color: #261C52;
+    background-color: #F4F0EA; 
+    }
+
+/* -- End of General CSS--*/
+
+/* --Navbar section --*/
+
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px; 
+   padding-right: 10px;   
+   background: #F3F1E9; 
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-logo img{
+    width: 200px; 
+    height: 200px; 
+    align: center; 
+}
+
+.nav-links, .nav-things {
+    list-style: none;
+    display: flex; 
+}
+
+.nav-item, .navApplyButton, .navSignButton{
+    display: inline-block; 
+    margin: 1em; 
+    text-align: center;
+    text-decoration: none;
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
+}
+
+.nav-item:hover,a:hover{
+    cursor:cell; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    }
+  
+.active {
+    color: #ffd33a;
+  }
+
+.navApplyButton, .navSignButton { 
+	border-radius: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: cell;
+  }
+
+.navSignButton{
+    border: 1px solid #261C52;
+}
+
+.navApplyButton { 
+    background-color: #ffd33a;
+	border: none; 
+  }
+
+button{
+    background-color: transparent;
+    border: none; 
+    display: inline-block;
+    padding: 5% 10px;   
+}
+
+.navApplyButton:hover,.navSignButton:hover {
+	box-shadow: #261C52 4px 0.3em 0em 0px; 
+}
+
+/* --End of Navbar section --*/
+
+/* -- Banner section --*/
+
+.banner{
+    position: relative;
+    height: 20%;
+}
+
+.banner-img{
+    width: 100%;
+    max-height: 15%;
+    justify-content: center;
+    position: relative;
+}
+
+.title-text-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #F4F0EA;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    width : 47%;
+    height : 50%;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.banner-logo{
+    text-align: center;
+    height: 45%;
+}
+
+.banner-slogan{
+    padding-top: 4%;
+    font-size: 150%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.apply-index-button{
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 150%;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    border-style: none;
+    position: absolute;
+    margin-top : -2%;
+    margin-left : 5%;
+    overflow: visible;
+    background-color: #ffd33a ;
+    text-decoration: none;
+}
+
+.apply-button-link{
+    background-color: #ffd33a ;
+    text-decoration: none;
+}
+
+button5:hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+a5:hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+
+/* --End of Banner section --*/
+
+/* --Courses Carousel section --*/
+
+.separator-div{
+    height:150px;
+}
+
+.index-h2-container{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.2rem solid #FFD33A;
+    width : min-content;
+}
+
+.index-h2 .courses-section{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+   }
+
+.separator-div-small{
+    height:70px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.specific-course-title{
+    text-decoration: none;
+    color:#261C52;
+}
+
+.courses-box{
+    width : 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.courses-box-img{
+    width : 100%;
+    border-radius: 20px;
+}
+
+.courses-box-title{
+    padding: 5%;
+    font-size: 150%;
+    font-weight: 380;
+}
+
+.courses-box-p{
+    padding: 5%;
+    font-size: 120%;
+    font-weight: 380;
+}
+
+/* --End of Courses Carousel section --*/
+
 /* --Footer section --*/
 footer{
     display: flex;
@@ -99,237 +340,6 @@ footer{
 }
 
 /*--End Footer section --*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    /*This part shoud be on body. Otherwhise, we cannot 
-    change the background-color (it would be overwritten) of different container for example(I had problems with the divs of footer)*/
-    /*font-family: ‘Montserrat’, sans-serif;
-    color: #261C52;
-    background-color: #F4F0EA;*/
-}
-
-body{
-    font-family: ‘Montserrat’, sans-serif;
-    text-decoration: none;
-    }
-
-body {
-    color: #261C52;
-    background-color: #F4F0EA; 
-}
-
-/* --Navbar section --*/
-
-.navbar {
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding-left: 30px; 
-   padding-right: 10px;   
-   background: #F3F1E9; 
-}
-
-.nav-logo {
-    display: inline-block;
-}
-
-.nav-logo img{
-    width: 200px; 
-    height: 200px; 
-    align: center; 
-}
-
-.nav-links, .nav-things {
-    list-style: none;
-    display: flex; 
-}
-
-.nav-item, .navApplyButton, .navSignButton{
-    display: inline-block; 
-    margin: 1em; 
-    text-align: center;
-    text-decoration: none;
-    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
-}
-
-
-.nav-item:hover,a:hover{
-    cursor:cell; 
-}
-
-.nav-item a {
-    text-decoration: none;
-    }
-  
-.active {
-    color: #ffd33a;
-  }
-
-.navApplyButton, .navSignButton { 
-	border-radius: 1em;
-    border-radius: 10px;
-    text-decoration: none;
-    cursor: cell;
-  }
-
-.navSignButton{
-    border: 1px solid #261C52;
-}
-
-.navApplyButton { 
-    background-color: #ffd33a;
-	border: none; 
-  }
-
-button{
-    background-color: transparent;
-    border: none; 
-    display: inline-block;
-    padding: 5% 10px;   
-}
-
-
-.navApplyButton:hover,.navSignButton:hover {
-	box-shadow: #261C52 4px 0.3em 0em 0px; 
-}
-
-
-/* --Info section --*/
-
-.banner{
-    position: relative;
-}
-
-.banner-img{
-    width: 100%;
-    max-height: 30%;
-    justify-content: center;
-    position: relative;
-}
-
-.title-text-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #F4F0EA;
-    position: absolute;
-    top : 50%;
-    left : 50%;
-    transform: translate(-50%,-50%);
-    padding: 10% 7% 10% 7%;
-    width : 47%;
-    height : 50%;
-    border-radius: 20px;
-    margin:auto;
-}
-
-.banner-logo{
-    text-align: center;
-}
-
-.banner-slogan{
-    padding-top: 4%;
-    font-size: 300%;
-    font-weight: 200;
-    text-align: center;
-}
-
-.apply-index-button{
-    padding: 1%;
-    border-radius: 20px;
-    font-size: 280%;
-    font-weight: 200;
-    justify-content: center;
-    text-align: center;
-    border-style: none;
-    position: absolute;
-    margin-top : -2%;
-    margin-left : 5%;
-    overflow: visible;
-    background-color: #ffd33a ;
-    text-decoration: none;
-}
-
-.apply-button-link{
-    background-color: #ffd33a ;
-    text-decoration: none;
-}
-
-button5:hover{
-    color :#F3F1E9;
-    background-color:#261C52 ;
-    text-decoration: none;
-}
-
-a5:hover{
-    color :#F3F1E9;
-    background-color:#261C52 ;
-    text-decoration: none;
-}
-
-.separator-div{
-    height:220px;
-}
-
-.index-h2-container{
-    justify-content: center;
-    text-align: center;
-}
-
-.index-h2 .courses-section{
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    font-size: 230%;
-    font-weight: 300;
-    color:#261C52;
-    padding: 2%;
-    text-decoration-line: underline;
-    text-decoration-color: #ffd33a;
-    text-underline-offset:0.5em;
-    text-decoration-thickness: 0.1em;
-    text-decoration-skip: -10px;
-   }
-
-.separator-div-small{
-    height:100px;
-}
-
-.box-container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.specific-course-title{
-    text-decoration: none;
-    color:#261C52;
-}
-.courses-box{
-    width : 25%;
-    text-align: center;
-    justify-content: center;
-}
-
-.courses-box-img{
-    width : 100%;
-    border-radius: 20px;
-}
-
-.courses-box-title{
-    padding: 5%;
-    font-size: 240%;
-    font-weight: 380;
-}
-
-.courses-box-p{
-    padding: 5%;
-    font-size: 200%;
-    font-weight: 380;
-}
 
 /* ---Responsive Design--- */
 @media (max-width: 600px){
