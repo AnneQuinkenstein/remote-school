@@ -12,27 +12,49 @@
 
       <nav class="navbar">
 
-         <a href="index.html" class="nav-logo">
+         <!-- <a href="index.html" class="nav-logo">
              <img  src="images/logo2cropped.png" alt="Logo Remote School">
-         </a>
+         </a> -->
 
+        
         <ul class="nav-links">
           <li class="nav-item">
-            <a class="active" href="index.html">HOME</a>
+            <a href="index.html" class="nav-logo">
+            <img  src="images/logo2cropped.png" alt="Logo Remote School"> 
+            </a> 
           </li>
-          <li class="nav-item">
-            <a href="courses.html">COURSES</a>
-          </li>
-          <li class="nav-item">
+          
+          <li class="nav-item" class="dropdown">
+            <a class="active" href="courses.html">COURSES</a>
+              <div class = "dropdown-content">
+                <a href="#">COURSE 1</a>
+                <a href="#">COURSE 2</a>
+                <a href="#">COURSE 3</a>
+              </div>
+           </li>
+         
+          <li class="nav-item" class="dropdown">
             <a href="students.html">STUDENTS</a>
+              <div class = "dropdown-content">
+                <a href="#">STUDENT 1</a>
+                <a href="#">STUDENT 2</a>
+                <a href="#">STUDENT 3</a>
+              </div>
           </li>
-          <li class="nav-item">
+          
+          <li class="nav-item" class="dropdown">
             <a href="contact.html">CONTACT</a>
+              <div class = "dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
           </li>
+
         </ul> 
 
         <ul class="nav-things">
-           <li class="nav-item">
+           <li class="nav-item" class="search-bar">
             <input type="text" placeholder="Search..">
            </li>
            <li class="navSignButton">
