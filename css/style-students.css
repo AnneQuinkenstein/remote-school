@@ -92,9 +92,9 @@ hr{
 
 .student-portrait{
     width : 35%;
-    overflow : visible;
     margin-right: auto;
     margin-left: 0;
+    overflow : visible;
 }
 
 .students-box-img{
