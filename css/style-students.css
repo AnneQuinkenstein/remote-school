@@ -1,0 +1,128 @@
+/* -- General CSS--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    /*This part shoud be on body. Otherwhise, we cannot 
+    change the background-color (it would be overwritten) of different container for example(I had problems with the divs of footer)*/
+    /*font-family: ‘Montserrat’, sans-serif;
+    color: #261C52;
+    background-color: #F4F0EA;*/
+}
+
+body{
+    font-family: ‘Montserrat’, sans-serif;
+    text-decoration: none;
+    color: #261C52;
+    background-color: #F4F0EA; 
+    }
+
+/* -- End of General CSS--*/
+
+
+/* --Students sections --*/
+
+.separator-div{
+    height:150px;
+}
+
+.student-h2-container{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.2rem solid #FFD33A;
+    width : min-content;
+    text-decoration: none;
+}
+
+.students-section{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+    text-decoration: none;
+   }
+
+.students {
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+    text-decoration: none;
+   }
+
+.separator-div-small{
+    height:70px;
+}
+
+.separator-div-students{
+    height:20px;
+}
+
+.separator-div-extrasmall{
+    height:10px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.students-box{
+    width : 70%;
+    justify-content: center;
+    display: flex;
+}
+
+.student-portrait{
+    width : 35%;
+    overflow : visible;
+}
+
+.students-box-img{
+    width : 100%;
+    border-radius: 200px;
+    border : solid #F4F0EA 50px;
+    overflow : visible;
+}
+
+.student-text{
+    width : 65%;
+    height : 100%
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction : column;
+    background-color: #F4F0EA; 
+}
+
+.student-testimonial{
+    background-color: #F8E7C0;
+    padding : 3%;
+    font-size: 90%;
+    font-weight: 80;
+    text-align: center;
+    justify-content: center;
+}
+
+.student-link{
+    background-color: #F8E7C0;
+    padding : 3%;
+    font-size: 90%;
+    font-weight: 80;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* --End of Students sections --*/
