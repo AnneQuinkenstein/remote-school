@@ -1,0 +1,104 @@
+hr {
+    border-top: 0.3em solid #261C52;
+}
+
+/* Changes to Leonors CSS */
+
+
+.index-h2 .cspage-courses-section{
+    text-decoration: none;
+    font-size: 125%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+   }
+
+/* --Courses Carousel section --*/
+/* 
+.separator-div{
+    height:150px;
+}
+
+.index-h2-container{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.2rem solid #FFD33A;
+    width : min-content;
+}
+
+.index-h2 .courses-section{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+   }
+
+.separator-div-small{
+    height:70px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.specific-course-title{
+    text-decoration: none;
+    color:#261C52;
+}
+
+.courses-box{
+    width : 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.courses-box-img{
+    width : 100%;
+    border-radius: 20px;
+}
+
+.courses-box-title{
+    padding: 5%;
+    font-size: 150%;
+    font-weight: 380;
+}
+
+.courses-box-p{
+    padding: 5%;
+    font-size: 120%;
+    font-weight: 380;
+} */
+
+/* --End of Courses Carousel section --*/
+
+/* individal course section */
+
+.cspage-h2-container{
+    text-align: center;
+    border-bottom: 0.2rem solid #FFD33A;
+}
+
+.cspage-course-titel{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    padding: 0em 13em; 
+}
+
+.cspage-description {
+    font-size: 1.7em;
+    padding-left: 3em; 
+    padding-right: 5em; 
+    line-height: 130%;
+
+}
+
+

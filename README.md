@@ -17,4 +17,4 @@ SCHOOL NAME BRAINSTORM :
 - NEW UNIVERSE
 - UNIVERSAL SCHOOL
 
-
+pictures -> unsplash.com
