@@ -6,44 +6,83 @@
     <title>Remote School</title>
     <link rel="stylesheet" href="css/style.css">
     <link href=“https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap” rel=“stylesheet”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!--*font-family fot the search button*-->
   </head>
   <body>
      <header>
 
       <nav class="navbar">
 
-         <a href="index.html" class="nav-logo">
-             <img  src="./images/logo2.svg" alt="Logo Remote School">
-         </a>
+         <!-- <a href="index.html" class="nav-logo">
+             <img  src="images/logo2cropped.png" alt="Logo Remote School">
+         </a> -->
 
+        
         <ul class="nav-links">
           <li class="nav-item">
-            <a class="active" href="index.html">HOME</a>
+            <a href="index.html" class="nav-logo">
+            <img  src="images/logo2cropped.png" alt="Logo Remote School"> 
+            </a> 
           </li>
+          
+          <div class="dropdown">
           <li class="nav-item">
-            <a href="courses.html">COURSES</a>
-          </li>
+            <a class="active" href="courses.html">COURSES<i class="fas fa-angle-down"></i></a>
+              <div class = "dropdown-content">
+                <a href="#">COURSE 1</a>
+                <a href="#">COURSE 2</a>
+                <a href="#">COURSE 3</a>
+              </div>
+           </li>
+          </div>
+
+        <div class="dropdown">
           <li class="nav-item">
-            <a href="students.html">STUDENTS</a>
+            <a href="students.html">STUDENTS<i class="fas fa-angle-down"></i></a>
+              <div class = "dropdown-content">
+                <a href="#">STUDENT 1</a>
+                <a href="#">STUDENT 2</a>
+                <a href="#">STUDENT 3</a>
+              </div>
           </li>
+        </div>
+
+        <div class="dropdown">
           <li class="nav-item">
-            <a href="contact.html">CONTACT</a>
+            <a href="contact.html">CONTACT<i class="fas fa-angle-down"></i></a>
+              <div class = "dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
           </li>
+        </div>
+
         </ul> 
 
         <ul class="nav-things">
+
            <li class="nav-item">
-            <input type="text" placeholder="Search..">
-           </li>
+             <div class = "search-container">
+             <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="text" placeholder="Search.." name="search">
+              </div>
+          </li>
+
            <li class="navSignButton">
             <button type="button">SIGN UP</button>
            </li>
+
            <li class="navSignButton">
             <button type="button">SIGN IN</button>
            </li>
+
            <li class="navApplyButton">
             <button type="button">APPY NOW</button>
            </li>
+
         </ul>
 
        </nav>
