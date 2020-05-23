@@ -1,0 +1,310 @@
+/* -- General CSS--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    /*This part shoud be on body. Otherwhise, we cannot 
+    change the background-color (it would be overwritten) of different container for example(I had problems with the divs of footer)*/
+    /*font-family: ‘Montserrat’, sans-serif;
+    color: #261C52;
+    background-color: #F4F0EA;*/
+}
+
+body{
+    font-family: ‘Montserrat’, sans-serif;
+    text-decoration: none;
+    color: #261C52;
+    background-color: #F4F0EA; 
+    }
+
+/* -- End of General CSS--*/
+
+/* --Navbar section --*/
+
+.navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px; 
+   padding-right: 10px;   
+   background: #F3F1E9; 
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-logo img{
+    width: 200px; 
+    height: 200px; 
+    align: center; 
+}
+
+.nav-links, .nav-things {
+    list-style: none;
+    display: flex; 
+}
+
+.nav-item, .navApplyButton, .navSignButton{
+    display: inline-block; 
+    margin: 1em; 
+    text-align: center;
+    text-decoration: none;
+    /* dropdown menu https://www.w3schools.com/Css/css_dropdowns.asp */
+}
+
+.nav-item:hover,a:hover{
+    cursor:cell; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    }
+  
+.active {
+    color: #ffd33a;
+  }
+
+.navApplyButton, .navSignButton { 
+	border-radius: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: cell;
+  }
+
+.navSignButton{
+    border: 1px solid #261C52;
+}
+
+.navApplyButton { 
+    background-color: #ffd33a;
+	border: none; 
+  }
+
+button{
+    background-color: transparent;
+    border: none; 
+    display: inline-block;
+    padding: 5% 10px;   
+}
+
+.navApplyButton:hover,.navSignButton:hover {
+	box-shadow: #261C52 4px 0.3em 0em 0px; 
+}
+
+/* --End of Navbar section --*/
+
+/* --Students sections --*/
+
+.separator-div{
+    height:150px;
+}
+
+.student-h2-container{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.2rem solid #FFD33A;
+    width : min-content;
+    text-decoration: none;
+}
+
+.students-section{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+    text-decoration: none;
+   }
+
+.students {
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    
+    font-size: 150%;
+    font-weight: 300;
+    color:#261C52;
+    padding: 2%;
+    text-decoration: none;
+   }
+
+.separator-div-small{
+    height:70px;
+}
+
+.separator-div-students{
+    height:20px;
+}
+
+.separator-div-extrasmall{
+    height:10px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.students-box{
+    width : 70%;
+    justify-content: center;
+    display: flex;
+}
+
+.student-portrait{
+    width : 35%;
+    overflow : visible;
+}
+
+.students-box-img{
+    width : 100%;
+    border-radius: 200px;
+    border : solid #F4F0EA 50px;
+    overflow : visible;
+}
+
+.student-text{
+    width : 65%;
+    height : 100%
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction : column;
+    background-color: #F4F0EA; 
+}
+
+.student-testimonial{
+    background-color: #F8E7C0;
+    padding : 3%;
+    font-size: 90%;
+    font-weight: 80;
+    text-align: center;
+    justify-content: center;
+}
+
+.student-link{
+    background-color: #F8E7C0;
+    padding : 3%;
+    font-size: 90%;
+    font-weight: 80;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* --End of Students sections --*/
+
+/* --Footer section --*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #261C52;
+    padding: 30px 20px;
+    color:#F4F0EA; 
+}
+
+.content-footer-list{
+    align-self: center;
+}
+
+.footer-col{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #261C52;
+}
+
+.footer-col li{
+    list-style: none;
+    margin: 0;
+    background-color: #261C52;
+}
+
+.footer-col li a{
+    padding: 0 25px;
+    color:#F4F0EA;
+    font-size: 1.125rem; 
+    font-weight: lighter;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: #261C52;
+}
+
+.footer-col a:hover{
+    color: #FFD33A;
+}
+
+.footer-logo{
+    align-self: center;
+}
+
+.img-logo {
+    width: 65%;
+}
+
+.network-icons{
+    width: 30px;
+    height: 30px;
+}
+
+.network-icons:hover{
+   /* filter: invert(80);*/
+   filter: brightness(0.6);
+}
+
+.biger{
+    width: 40px;
+    height: 40px; 
+}
+
+.links-social-network{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-social-network p{
+    font-size: 1.125rem; 
+    font-weight: lighter;
+}
+
+.social-list{
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #261C52;
+}
+
+.social-list li{
+    margin: 0;
+    /*padding: 5px 0;*/
+    background-color: #261C52;
+}
+
+.social-list li a{
+    padding: 5px 20px;
+}
+
+.social-list li a:nth-child(1){
+    padding-left: 0px;
+}
+.social-list li a:last-child){
+    padding-right: 0px;
+}
+
+/*--End Footer section --*/
+
+/* ---Responsive Design--- */
+@media (max-width: 600px){
+}
+
