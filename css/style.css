@@ -59,8 +59,13 @@ body{
     text-decoration: none;
 }
 
-.nav-item:hover,a:hover{
+.nav-item:hover,.nav-item a:hover{
     cursor:pointer; 
+    color: #F4F0EA; 
+    background-color:  #261C52; 
+    border-radius: 12px; 
+    padding: 12px; 
+
 }
 
 .nav-item a {
@@ -68,11 +73,15 @@ body{
     color: #261C52; 
     }
   
-.active {
+.nav-item a.active {
     /* stranger design -> 
     box-shadow: 6px 6px 10px hsla(46.6,100%,61.4%,0.6) inset; 
     border-radius: 12px; */
-    font-weight: bold;
+    color: #F4F0EA; 
+    background-color:  #261C52; 
+    border-radius: 12px; 
+    padding: 12px; 
+
   }
 
 .navApplyButton, .navSignButton { 
@@ -99,7 +108,7 @@ button{
 }
 
 .navApplyButton:hover,.navSignButton:hover {
-    box-shadow: #261C52 4px 0.3em 0em 0px; 
+    box-shadow: #261C52 4px 0.3em 0em 0px;   
 }
 
 /*search-bar*/
@@ -136,7 +145,7 @@ button{
     position: absolute; 
     min-width: 100px; 
     /* stranger design -> 
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);     */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/     
 }
 
 /* Links inside the dropdown */
@@ -147,14 +156,16 @@ button{
     display: block;
     background-color: #F4F0EA;
     text-align: left;
+    border-radius: 12px; 
     
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
+    background-color:  #261C52; 
+    color: #F4F0EA; 
     /* box-shadow: 6px 6px 10px hsla(46.6,100%,61.4%,0.6) inset;
-    border-radius: 12px;  */
-    font-weight: bold; 
+    font-weight: bold;  */
 }
 
 /* Show the dropdown menu on hover */
