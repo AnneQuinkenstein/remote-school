@@ -28,24 +28,28 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
-    height: 90%;
+    /*height: 90%;*/
 }
 .contact-sections{
     border-radius: 1em;
     margin-bottom: 15px;
-    
+    height: 550px;
 }
 .contact-sections:nth-child(2){
     width: 49%;
     background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contact-sections:nth-child(1){
-    border: 0.250em #FFD33A solid;
+    border: 0.313em  #F8E7C0 solid;
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px 15px;
+    
 }
 
 .contact-form{
@@ -59,6 +63,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+   /* height: 100%;*/
 }
 
 .form-logo{
@@ -107,6 +112,11 @@
 }
 
 .staff-img{
+    width: 100%;
+    align-self: center;
+}   
+.staff-info{
+    align-self: center;
     width: 30%;
-    
 }
+
