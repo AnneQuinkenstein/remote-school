@@ -59,12 +59,12 @@ body{
     text-decoration: none;
 }
 
-.nav-item:hover,.nav-item a:hover{
+.dropdown:hover{
     cursor:pointer; 
     color: #F4F0EA; 
     background-color:  #261C52; 
     border-radius: 12px; 
-    padding: 12px; 
+    padding: 0,5em; 
 
 }
 
