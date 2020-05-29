@@ -39,6 +39,7 @@
 }
 .contact-sections:nth-child(1){
     border: 0.250em #FFD33A solid;
+
 }
 
 .contact-form{
@@ -46,6 +47,8 @@
     flex-direction: column;
     padding: 30px 50px;
     margin-top: 30px;
+    background-color: darkcyan;
+    text-align: center;
 }
 
 .form-logo{
@@ -76,6 +79,7 @@
     height: 200px;
     padding-top: 1.250em;
     scroll-padding-right: 0.5em;
+    align-self: center;
 }
 
 #form-button{
