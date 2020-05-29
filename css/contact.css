@@ -37,7 +37,7 @@
 }
 .contact-sections:nth-child(2){
     width: 49%;
-    background-color: bisque;
+   /* background-color: bisque;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
