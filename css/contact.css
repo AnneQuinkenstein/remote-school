@@ -1,3 +1,7 @@
+.top-line-header{
+    border-top: 0.250em solid #261C52;
+}
+
 .contact-wrapper{
     width: 80%;
     /*background-color: blue;*/
@@ -9,14 +13,12 @@
 }
 
 .contact-title{
-    justify-content: center;
-    text-align: center;
     padding: 0.5%;
     margin: 0 auto;
     border-bottom: 0.2rem solid #FFD33A;
     color: #261C52;
     font-weight: 300;
-    font-size: 150%;
+    font-size: 2.2em
 }
 
 .contact-content{
@@ -24,28 +26,95 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
+    /*height: 90%;*/
 }
 .contact-sections{
-    /*background-color: bisque;*/
-    width: 49%;
-    /*height: 200px;*/
     border-radius: 1em;
-    padding: 20px 0;
-    
+    margin-bottom: 15px;
+    height: 550px;
 }
+.contact-sections:nth-child(2){
+    width: 49%;
+   /* background-color: bisque;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .contact-sections:nth-child(1){
-    border: 0.250em #FFD33A solid;
+    border: 0.313em  #F8E7C0 solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    
 }
 
 .contact-form{
     display: flex;
     flex-direction: column;
     padding: 30px 50px;
-    margin-top: 30px;
+    text-align: center;
+}
+
+.form-wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   /* height: 100%;*/
 }
 
 .form-logo{
-    height: 15%;
+    width: 20%;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto 10px auto;
 }
+
+/*styling form*/
+.contact-fields{
+    margin-bottom: 10px;
+}
+.contact-form input, #course, .contact-form option, #user-message{
+    background-color: #F8E7C0;
+    width: 90%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.250em 0.5em;
+    color: #261C52;
+}
+.contact-form input, #course{
+    height: 35px;
+}
+
+
+#user-message{
+    height: 200px;
+    padding-top: 1.250em;
+    scroll-padding-right: 0.5em;
+    align-self: center;
+}
+
+#form-button{
+    border: none;
+    border-radius: 0.5em;
+    background-color: #FFD33A;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 20%;
+    align-self: center;
+}
+
+.form-filed-condition{
+    text-align: end;
+    font-size: 12px;
+}
+
+.staff-img{
+    width: 100%;
+    align-self: center;
+}   
+.staff-info{
+    align-self: center;
+    width: 30%;
+}
+
