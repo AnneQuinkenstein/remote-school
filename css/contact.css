@@ -6,7 +6,7 @@
     width: 80%;
     /*background-color: blue;*/
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 150px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -112,6 +112,7 @@
 .staff-img{
     width: 100%;
     align-self: center;
+    /*border-radius: 20px*/
 }   
 .staff-info{
     align-self: center;
