@@ -221,12 +221,18 @@ footer{
 }
 
 .footer-col a:hover{
-    color: #FFD33A;
+    /*color: #FFD33A;*/
+    filter: brightness(0.8);
 }
 
 .footer-logo{
     align-self: center;
 }
+
+.footer-logo:hover{
+    /* filter: invert(80);*/
+    filter: brightness(0.7);
+ }
 
 .img-logo {
     width: 65%;
@@ -239,7 +245,7 @@ footer{
 
 .network-icons:hover{
    /* filter: invert(80);*/
-   filter: brightness(0.6);
+   filter: brightness(0.7);
 }
 
 .biger{
@@ -286,6 +292,9 @@ footer{
 /*--End Footer section --*/
 
 /* ---Responsive Design--- */
-@media (max-width: 600px){
+
+@media (max-width: 768px){
+
 }
+
 
