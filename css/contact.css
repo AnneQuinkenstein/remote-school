@@ -168,7 +168,8 @@
     color:  #261C52;
     text-align: center;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
+    border-bottom: 0.2rem solid #FFD33A;
 }
 
 .staff-possition{
@@ -181,7 +182,7 @@
 .staff-about{
     text-align: center;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
     font-weight: lighter;
 }
 @media (max-width: 767px) {
@@ -197,5 +198,4 @@
 
     .form-wrapper{
         width: 90%;
-    
   }
