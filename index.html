@@ -6,6 +6,7 @@
     <title>Remote School</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link href=“https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap” rel=“stylesheet”>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon Remote School.png"/>
@@ -95,10 +96,53 @@
             </div>
           </div>
       </section>
+
     <section>
-      <div class='button-div'>
-      <a href="contact.html" title="contact-remote"><button class="apply-index-button">APPLY NOW</button></a>
+     
+    <div class='button-div'>
+      <button id="apply-now-modal" class="apply-index-button">APPLY NOW</button>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-inner content center">
+
+          <p class="modal-title-font">Thanks for applying !</p>
+            <div class="separator-div-modal"></div>
+          <p>Please leave us your name and email address below, and we will contact you very soon :-)</p>
+          
+          <div class="separator-div-modal"></div>
+
+          <form action="" class ="contact-form-index" method="get" id="usrform">
+            <div class="contact-fields">
+                <label for="name" name="name" ></label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </div> 
+            <div class="separator-div-modal-form"></div>
+            <div class="contact-fields">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required> 
+            </div> 
+            <div class="contact-fields">
+          </form>
+
+          <div class="separator-div-modal"></div>
+          
+          <div class="modal-two-buttons">
+
+            <div class="close-button">
+              <button class="close-button-modal-index" id="close-modal">x close</button>
+            </div>
+
+            <div class="send-button">
+              <button class="send-button-modal-index" id="close-modal" id="send-modal">send !</button>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </div>
+
+
     </section>
     <section>
         <div class="separator-div"></div>
