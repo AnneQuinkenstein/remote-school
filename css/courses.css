@@ -248,5 +248,59 @@ hr {
 }
 
 @media (max-width: 768px){
-    
+   .cspage-course-titel {
+        padding: 0em 0em;
+        flex-direction: column; } 
+
+    .index-h2 {
+        text-align: center; 
+        }
+
+    .cspage-description {
+        padding-top: 1.5em; 
+        font-size: 1.3em;
+        font-weight: 300; 
+    }
+
+    .webdesign-background-sqare, .dev-background-sqare, .data-background-sqare {
+        display: none; 
+    }
+
+    .webdesign-first-pic, .webdesign-second-pic, .dev-first-pic, .dev-second-pic, .data-first-pic, .data-second-pic {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+        padding: 40px 0px; 
+        }
+
+    .webdesign-text-box, .dev-text-box, .data-text-box {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+    }
+
+   
+    .subtitle-textbox {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+        margin-top: 60px; 
+        font-size: 1.1em;
+        font-weight: 300; 
+        text-align: left; 
+    }
+
+    .course-buttons {
+        width: 100%;  
+    }
+
+
+    .course-pics {
+        border: none; 
+    }
+/* 
+    .dev-first-pic {
+      
+    } */
+
 }
