@@ -22,6 +22,10 @@ body{
 
 /* --Navbar section --*/
 
+.burgerMenu{
+    display:none; 
+}
+
 .navbar {
    width: 100%;
    display: flex;
@@ -173,21 +177,6 @@ button{
 
 /* dropdown- menü end */
 
-/* @media screen and (max-width: 600px) {
-    .navbar {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
-    .navbar input[type=text] {
-      border: 1px solid #ccc;
-    } */
-
-/* --End of Navbar section --*/
-
 
 /* --Footer section --*/
 footer{
@@ -301,6 +290,26 @@ footer{
 /* ---Responsive Design--- */
 
 @media (max-width: 768px){
+    /* navbar-section */
+
+.resNavSection{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.burgerMenu{
+    display: block; 
+
+}
+
+.nav-links, .nav-things {
+    display:none; 
+}
+
+.nav-logo{
+    display:block; 
+}
 
 }
 
