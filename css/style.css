@@ -86,6 +86,7 @@ body{
 .nav-item a:hover {
     color: #F4F0EA; 
     border-radius: 12px; 
+    padding: 7px; 
 }
 
 .navApplyButton, .navSignButton { 
@@ -176,7 +177,7 @@ button{
 }
 
 /* dropdown- menü end */
-.res-dropdown-content {
+.resNavSection {
     display: none; }
 
 /* --Footer section --*/
@@ -346,7 +347,7 @@ footer{
     display: block;
     background-color: #F4F0EA;
     text-align: right;
-    border-radius: 6px; 
+    border-radius: 6px;
     
 }
 
@@ -361,6 +362,7 @@ footer{
   display: block;
   z-index: 5;
   overflow: visible;
+  right: 0; 
 }
 
 }
