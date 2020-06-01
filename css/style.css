@@ -176,7 +176,8 @@ button{
 }
 
 /* dropdown- menü end */
-
+.res-dropdown-content {
+    display: none; }
 
 /* --Footer section --*/
 footer{
@@ -291,6 +292,19 @@ footer{
 
 @media (max-width: 768px){
     /* navbar-section */
+
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-logo img {
+    width: 6em; 
+    padding: 10px; 
+}
+
+.nav-item {
+    margin: 0em;
+}
 
 .resNavSection{
     display: flex; 

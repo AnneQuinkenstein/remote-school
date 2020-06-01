@@ -4,8 +4,13 @@ hr {
 
 /* Changes to Leonors CSS */
 
+.text-abovex {
+    display: flex;
+    justify-content: space-around;
+}
 
-.index-h2 .cspage-courses-section{
+
+.index-h2 .cspage-courses-section {
     text-decoration: none;
     font-size: 125%;
     font-weight: 300;
@@ -240,4 +245,8 @@ hr {
     width: 15%;    
     top: 65%; 
     left: 30%;
+}
+
+@media (max-width: 768px){
+    
 }
