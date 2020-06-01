@@ -13,6 +13,9 @@ hr {
     padding: 2%;
    }
 
+.separator-div-supersmall{
+    height:30px;
+}
 
 /* --End of Courses Carousel section --*/
 
@@ -45,14 +48,14 @@ hr {
 }
 
 /* course-side */
-
+/* Webdesign */
 .course-part{
     position: relative; 
     width: 100%; 
     height: 700px; 
 }
 
-.background-sqare {
+.webdesign-background-sqare {
     position: absolute; 
     border: 4px solid #261C52;
     border-left-style: none;
@@ -64,35 +67,139 @@ hr {
 
 .course-pics{
     width: 100%; 
+    overflow: hidden; 
+    border-radius: 20px; 
+    border: 4px solid #261C52;  
+    border-radius: 20px; 
 }
 
-.first-pic {
+.webdesign-first-pic {
     position: absolute; 
     padding: 0;  
     width: 31%;
-    border: 4px solid #261C52;  
-    border-radius: 7px; 
     left: 20%;
 }
 
-.text-box{
+.webdesign-text-box{
     position: absolute; 
     padding: 1em; 
-    font-size: 1.1em;
+    font-size: 1.25em;
     width: 20%; 
     border: 4px solid #261C52; 
-    border-radius: 7px;
+    border-radius: 20px;
     background-color: white; 
     top: 50%; 
     left: 60%; 
 }
 
-.second-pic{
+.webdesign-second-pic{
     position: absolute;
     padding: 0; 
-    width: 15%; 
+    width: 15%;    
+    top: 65%; 
+    left: 30%;
+}
+
+/* Buttons beneath Courses */
+
+.course-subtitels{
+
+}
+
+.subtitle-textbox{
+    background-color:#eef091; 
+    font-size: 1.5em;
+    padding: 1em; 
+    margin: auto;
+    text-align: center;
+    width: 50%; 
+    border-radius: 20px;
+}
+
+.course-buttons{
+    width: 50%; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.apply-button-div :hover, .syllabus-button-div :hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+.apply-course-button{
+    padding: 10%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    border-style: none;
+    background-color: #ffd33a ;
+    text-decoration: none; 
+}
+
+.syllabus-course-button{
+    padding: 10%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    border-style: none; 
+    background-color: #F3F1E9 ;
+    color: #261C52; 
+    text-decoration: none;
     border: 4px solid #261C52; 
-    border-radius: 7px;
-    top: 65%;  
+    border-radius: 20px;
+}
+
+/* course-side */
+/* Developer */
+
+.dev-background-sqare {
+    position: absolute; 
+    border: 4px solid #261C52;
+    border-right-style: none;
+    top: 30%; 
+    left: 30%; 
+    height: 50%; 
+    width: 40%; 
+}
+
+.dev-pics{
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 20px; 
+    border: 4px solid #261C52;  
+    border-radius: 20px; 
+}
+
+.dev-first-pic {
+    position: absolute; 
+    padding: 0;  
+    width: 10px;
+    left: 80%;
+}
+
+.dev-text-box{
+    position: absolute; 
+    padding: 1em; 
+    font-size: 1.25em;
+    width: 20%; 
+    border: 4px solid #261C52; 
+    border-radius: 20px;
+    background-color: white; 
+    top: 50%; 
+    left: 60%; 
+}
+
+.dev-second-pic{
+    position: absolute;
+    padding: 0; 
+    width: 10px;     
+    top: 65%; 
     left: 30%;
 }
