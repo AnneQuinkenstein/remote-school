@@ -63,7 +63,7 @@ body{
     text-decoration: none;
 }
 
-.dropdown:hover{
+.dropdown :hover{
     cursor:pointer; 
     color: #F4F0EA; 
     background-color:  #261C52; 
@@ -295,20 +295,58 @@ footer{
 .resNavSection{
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
-
 
 .burgerMenu{
     display: block; 
-
 }
 
-.nav-links, .nav-things {
+.burgerMenu .fa{
+    font-size: 25px;
+    padding: 10px; 
+}
+
+.nav-links .dropdown, .nav-things {
     display:none; 
 }
 
-.nav-logo{
-    display:block; 
+/* The container <div> - needed to position the dropdown content */
+.res-dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.res-dropdown-content {
+    display: none; 
+    position: absolute; 
+    min-width: 100px;    
+}
+
+/* Links inside the dropdown */
+.res-dropdown-content a {
+    color: #261C52;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #F4F0EA;
+    text-align: right;
+    border-radius: 6px; 
+    
+}
+
+/* Change color of dropdown links on hover */
+.res-dropdown-content a:hover {
+    background-color:  #261C52; 
+    color: #F4F0EA; 
+}
+
+/* Show the dropdown menu on hover */
+.res-dropdown:hover .res-dropdown-content {
+  display: block;
+  z-index: 5;
+  overflow: visible;
 }
 
 }
