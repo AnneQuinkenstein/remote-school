@@ -178,8 +178,9 @@ hr {
 .dev-first-pic {
     position: absolute; 
     padding: 0;  
-    width: 10%;
+    width: 15%;
     left: 65%;
+    top: -5%;
 }
 
 .dev-text-box{
@@ -198,7 +199,7 @@ hr {
     position: absolute;
     padding: 0; 
     width: 20%;     
-    top: 55%; 
+    top: 59%; 
     left: 50%;
 }
 
@@ -239,5 +240,4 @@ hr {
     width: 15%;    
     top: 65%; 
     left: 30%;
-    overflow: auto; 
 }
