@@ -39,6 +39,7 @@ body{
     padding:3%;
     padding-bottom: 1%;
     position: relative;
+    margin-top: -20%;
 }
 
 .modal1-title-font{
@@ -147,6 +148,7 @@ body{
     .modal1 {
         margin-left: -60%;
         margin-right: -60%;
+        margin-top: -20%;
     }
 
 }
@@ -163,6 +165,7 @@ body{
         font-size: 1.2em;
         margin-left: -10%;
         margin-right: -10%;
+        margin-top: -20%;
     }
 
     .modal1-title-font{
@@ -183,6 +186,7 @@ body{
         font-size: 1.1em;
         margin-left: -15%;
         margin-right: -15%;
+        margin-top: -30%;
     }
 
     .modal1-title-font{
@@ -196,144 +200,3 @@ body{
 
 /* -- END OF MODAL 1--*/
 
-
-
-
-/* -- MODAL 2--*/
-
-.modal2 {
-    background-color: #F8E7C0;
-    font-family: ‘Montserrat’, sans-serif;
-    text-decoration: none;
-    color: #261C52;
-    font-size: 1.3em;
-    font-weight: 150;
-    display: none;
-    align-self: center;
-    justify-self: center;
-    margin-left: -80%;
-    margin-right: -80%;
-    padding:3%;
-    padding-bottom: 1%;
-    position: relative;
-}
-
-
-/* ---Responsive Design MEDIUM --- */
-
-@media screen and (min-width: 768px) and (max-width:992px){
-
-    .modal2 {
-        margin-left: -60%;
-        margin-right: -60%;
-    }
-
-}
-
-/* ---End of Responsive Design MEDIUM --- */
-
-
-
-/* ---Responsive Design SMALL --- */
-
-@media screen and (min-width: 576px) and  (max-width: 767px){
-
-    .modal2 {
-        font-size: 1.2em;
-        margin-left: -10%;
-        margin-right: -10%;
-    }
-    
-}
-
-/* ---End of Responsive Design SMALL --- */
-
-
-
-/* ---Responsive Design EXTRA SMALL --- */
-
-@media screen and (min-width: 352px) and (max-width: 575px){
-
-    .modal2 {
-        font-size: 1.1em;
-        margin-left: -15%;
-        margin-right: -15%;
-    }
-
-}
-
-/* ---End of Responsive Design EXTRA SMALL --- */
-
-
-/* -- END OF MODAL 2--*/
-
-
-
-
-/* -- MODAL 3--*/
-
-.modal3 {
-    background-color: #F8E7C0;
-    font-family: ‘Montserrat’, sans-serif;
-    text-decoration: none;
-    color: #261C52;
-    font-size: 1.3em;
-    font-weight: 150;
-    display: none;
-    align-self: center;
-    justify-self: center;
-    margin-left: -80%;
-    margin-right: -80%;
-    padding:3%;
-    padding-bottom: 1%;
-    position: relative;
-}
-
-
-/* ---Responsive Design MEDIUM --- */
-
-@media screen and (min-width: 768px) and (max-width:992px){
-
-    .modal3 {
-        margin-left: -60%;
-        margin-right: -60%;
-    }
-
-}
-
-/* ---End of Responsive Design MEDIUM --- */
-
-
-
-/* ---Responsive Design SMALL --- */
-
-@media screen and (min-width: 576px) and  (max-width: 767px){
-
-    .modal3 {
-        font-size: 1.2em;
-        margin-left: -10%;
-        margin-right: -10%;
-    }
-    
-}
-
-/* ---End of Responsive Design SMALL --- */
-
-
-
-/* ---Responsive Design EXTRA SMALL --- */
-
-@media screen and (min-width: 352px) and (max-width: 575px){
-
-    .modal3 {
-        font-size: 1.1em;
-        margin-left: -15%;
-        margin-right: -15%;
-    }
-
-}
-
-/* ---End of Responsive Design EXTRA SMALL --- */
-
-
-/* -- END OF MODAL 3--*/
