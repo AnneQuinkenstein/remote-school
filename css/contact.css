@@ -2,7 +2,7 @@
     border-top: 0.188em solid #261C52;
 }
 
-.contact-wrapper{ /*The */
+.contact-wrapper{ /* */
     width: 90%; 
     margin: 0 auto;
     padding: 150px 0;
@@ -151,6 +151,7 @@
 .text-info{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     color: #261C52;
     font-size: 20px;
     position: absolute;
@@ -170,6 +171,7 @@
     font-size: 18px;
     font-weight: 500;
     border-bottom: 0.2rem solid #FFD33A;
+    
 }
 
 .staff-possition{
