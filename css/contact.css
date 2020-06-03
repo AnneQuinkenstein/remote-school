@@ -128,9 +128,9 @@
     flex-direction: column;
 }
 
-.staff-link{
+/*.staff-link{
 
-}
+}*/
 .staff-info:hover .img-overlay-effect{
     height: 100%;
 }
@@ -201,3 +201,4 @@
     .form-wrapper{
         width: 90%;
   }
+}
