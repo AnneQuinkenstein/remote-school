@@ -195,10 +195,41 @@
     .contact-sections:nth-child(2){
         width: 90%;
         justify-content: space-between; 
-
     }
 
     .form-wrapper{
         width: 90%;
   }
+
+  footer{
+    flex-direction: column;
+    /*justify-content: flex-start; 
+    align-self: flex-start;*/
+ 
+  
+  }
+  .footer-logo{
+      padding-bottom: 15px;
+      align-self: start;
+      padding-left: 2%;
+  }
+  .footer-col{
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .footer-col li{
+      padding: 3px 0;
+  }
+
+  .content-footer-list, .links-social-network{
+    align-self: start;
+  }
+
+ .links-social-network{
+    padding: 20px 25px;
+   }
+
 }
