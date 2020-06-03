@@ -7,12 +7,15 @@
     <title>Courses Remote School</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/coursesModal.css">
     <link href=“https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap” rel=“stylesheet”>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/courses.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon Remote School.png"/>
     <!--*font-family fot the search button*-->
   </head>
   <body>
+    <!-- NAV BAR -->
     <header>
 
       <nav class="navbar">
@@ -80,37 +83,44 @@
        </nav>
 
      </header>
-     <hr class="navbar-line">
+    <!-- END OF NAV BAR -->
+
     
+    <!-- PAGE TITLE & CAROUSEL -->
+     <hr class="navbar-line">
     <section>
-        <div class="separator-div-small"></div>
+        <div class="separator-div"></div>
         <div class="index-h2-container">
-          <h2 class="index-h2"><a class="cspage-courses-section" href="courses.html">OUR&nbsp;COURSES</a></h2>
+          <a class="cspage-courses-section" href="courses.html"><h2 class="index-h2">OUR&nbsp;COURSES</h2></a>
         </div>
+    
       </div>
         <div class="separator-div-small"></div>
         <div class="box-container">
           <div class="courses-box">
-            <a href="courses.html">
+            <a href="courses.html#WebDesigner">
               <img class="courses-box-img" src="images/girl-working-index-light.jpg" alt="girl-working-index" />
             </a>
-            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html">Web Designer<br>Full time</a></h4>
+            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html#WebDesigner">Web Designer<br>Full time</a></h4>
           </div>
           <div class="courses-box">
-            <a href="courses.html">
+            <a href="courses.html#WebDeveloper">
               <img class="courses-box-img" src="images/computer-coffee-index-light.jpg" alt="girl-working-index" />
             </a>
-            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html">Web Developper<br>Part time</a></h4>
+            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html#WebDeveloper">Web Developper<br>Part time</a></h4>
           </div>
           <div class="courses-box">
-            <a href="courses.html">
+            <a href="courses.html#DataAnalyst">
               <img class="courses-box-img" src="images/girl-working-dog-index-light.jpg" alt="girl-working-index" />
             </a>
-            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html">Web Analyst<br>Full time</a></h4>
+            <h4 class="courses-box-title"><a class="specific-course-title" href="courses.html#DataAnalyst">Web Analyst<br>Full time</a></h4>
           </div>
         </div>
         
     </section>
+    <!-- END OF PAGE TITLE & CAROUSEL -->
+
+
 
     <!-- Web Designer -->
 
@@ -120,10 +130,10 @@
         
         <div class="cspage-course-titel" id="WebDesigner">
             <div class="cspage-h2-container">
-            <h2 class="index-h2"><a class="courses-section" href="courses.html">WEB&nbsp;DESIGNER</a></h2>
+            <h2 class="index-h2"><a href="courses.html">WEB&nbsp;DESIGNER</a></h2>
             </div>
             <div>
-            <p class="cspage-description">A Web Designer imagines the style of the websites.He proposes the colors, typographies and moods of the future websites and work closely with the web developers to be sure his proposals are feasible and with the project manager to be aligned with the client’s requests.</p>
+            <p class="cspage-description">A Web Designer imagines the style of the websites. He proposes the colors, typographies and moods of the future websites and work closely with the web developers to be sure his proposals are feasible and with the project manager to be aligned with the client’s requests.</p>
             </div>
         </div>  
         
@@ -149,15 +159,59 @@
         160hours/months - 6 months
       </p></div>
       <div class="separator-div-supersmall"></div>
+      
+      
       <div class="course-buttons">
+
       <div class='apply-button-div'>
-        <button class="apply-course-button">APPLY&nbsp;NOW</button>
+        <button id="apply-now-modal-1" class="apply-course-button">APPLY&nbsp;NOW</button>
       </div>
+
+        <!-- modal 1 -->
+              <div id="modal-1" class="modal1">
+                <div class="modal1-inner content center">
+
+                  <p class="modal1-title-font">Thanks for applying !</p>
+                    <div class="separator-div-modal-1"></div>
+                  <p>Please leave us your name and email address below, and we will contact you very soon :-)</p>
+                  
+                  <div class="separator-div-modal-1"></div>
+
+                  <form action="" class ="contact-form-courses" method="get" id="usrform">
+                    <div class="contact-fields">
+                        <label for="name" name="name" ></label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div> 
+                    <div class="separator-div-modal-form-1"></div>
+                    <div class="contact-fields">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email" required> 
+                    </div> 
+                  </form>
+
+                  <div class="separator-div-modal-1"></div>
+                  
+                  <div class="modal-two-buttons-1">
+
+                    <div class="close-button-1">
+                      <button class="close-button-modal-courses-1" id="close-modal-1">x close</button>
+                    </div>
+
+                    <div class="send-button-1">
+                      <button class="send-button-modal-courses-1" id="close-modal-1" id="send-modal">send !</button>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+        <!-- end of modal 1 -->
+
       <div class='syllabus-button-div'>
         <button class="syllabus-course-button"><a href="syllabus/syllabus Web Designer.pdf">SYLLABUS</a></button>
       </div>
     </div>
-     </section>
+    </section>
 
      <div class="separator-div"></div> 
 
@@ -198,9 +252,51 @@
     </p></div>
     <div class="separator-div-supersmall"></div>
     <div class="course-buttons">
-    <div class='apply-button-div'>
-      <button class="apply-course-button">APPLY&nbsp;NOW</button>
-    </div>
+
+      <div class='apply-button-div'>
+        <button id="apply-now-modal-2" class="apply-course-button">APPLY&nbsp;NOW</button>
+      </div>
+
+        <!-- modal 2 -->
+            <div id="modal-2" class="modal2">
+              <div class="modal1-inner content center">
+
+                <p class="modal1-title-font">Thanks for applying !</p>
+                  <div class="separator-div-modal-1"></div>
+                <p>Please leave us your name and email address below, and we will contact you very soon :-)</p>
+                
+                <div class="separator-div-modal-1"></div>
+
+                <form action="" class ="contact-form-courses" method="get" id="usrform">
+                  <div class="contact-fields">
+                      <label for="name" name="name" ></label>
+                      <input type="text" name="name" id="name" placeholder="Name" required>
+                  </div> 
+                  <div class="separator-div-modal-form-1"></div>
+                  <div class="contact-fields">
+                      <label for="email"></label>
+                      <input type="email" name="email" id="email" placeholder="Email" required> 
+                  </div> 
+                </form>
+
+                <div class="separator-div-modal-1"></div>
+                
+                <div class="modal-two-buttons-1">
+
+                  <div class="close-button-1">
+                    <button class="close-button-modal-courses-1" id="close-modal-2">x close</button>
+                  </div>
+
+                  <div class="send-button-1">
+                    <button class="send-button-modal-courses-1" id="close-modal-2" id="send-modal">send !</button>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+      <!-- end of modal 2 -->
+
     <div class='syllabus-button-div'>
       <button class="syllabus-course-button"><a href="syllabus/syllabus Web Developer.pdf">SYLLABUS</a></button>
     </div>
@@ -236,8 +332,6 @@
   <div class="data-second-pic"><img class="course-pics" src="images/CourseData2.jpg" alt="Boy sitting in Front of Monitor"></img></div>
   </section>
 
-<div class="separator-div"></div> 
-
 <section class="course-subtitels">
   <div class="subtitle-textbox"><p>
     Next session : June 22th 2020 - October 24th 2020 </br>
@@ -246,8 +340,49 @@
   <div class="separator-div-supersmall"></div>
   <div class="course-buttons">
   <div class='apply-button-div'>
-    <button class="apply-course-button">APPLY&nbsp;NOW</button>
+    <button id="apply-now-modal-3" class="apply-course-button">APPLY&nbsp;NOW</button>
   </div>
+
+         <!-- modal 3 -->
+              <div id="modal-3" class="modal3">
+                <div class="modal1-inner content center">
+
+                  <p class="modal1-title-font">Thanks for applying !</p>
+                    <div class="separator-div-modal-1"></div>
+                  <p>Please leave us your name and email address below, and we will contact you very soon :-)</p>
+                  
+                  <div class="separator-div-modal-1"></div>
+
+                  <form action="" class ="contact-form-courses" method="get" id="usrform">
+                    <div class="contact-fields">
+                        <label for="name" name="name" ></label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div> 
+                    <div class="separator-div-modal-form-1"></div>
+                    <div class="contact-fields">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email" required> 
+                    </div> 
+                  </form>
+
+                  <div class="separator-div-modal-1"></div>
+                  
+                  <div class="modal-two-buttons-1">
+
+                    <div class="close-button-1">
+                      <button class="close-button-modal-courses-1" id="close-modal-3">x close</button>
+                    </div>
+
+                    <div class="send-button-1">
+                      <button class="send-button-modal-courses-1" id="close-modal-3" id="send-modal">send !</button>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+        <!-- end of modal 3 -->
+
   <div class='syllabus-button-div'>
     <button class="syllabus-course-button"><a href="syllabus/syllabus Web Analyst.pdf">SYLLABUS</a></button>
   </div>
@@ -256,7 +391,7 @@
 
  <div class="separator-div"></div> 
   
-
+  <!-- FOOTER -->
      <footer>
        <!-- logo div -->
        <div class="footer-logo">
@@ -287,6 +422,8 @@
       </div>
          
      </footer>
+  <!-- END OF FOOTER -->
+
     <script src="script.js"></script>
   </body>
 </html>
