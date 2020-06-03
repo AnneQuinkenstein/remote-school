@@ -6,6 +6,7 @@
     <title>Remote School</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link href=“https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap” rel=“stylesheet”>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon Remote School.png"/>
@@ -23,13 +24,13 @@
             </a> 
           </li>
           
-          <div class="dropdown">
+         <div class="dropdown">
           <li class="nav-item">
-            <a class="active" href="courses.html">COURSES<i class="fa fa-angle-down"></i></a>
+            <a href="courses.html">COURSES<i class="fa fa-angle-down"></i></a>
               <div class = "dropdown-content">
-                <a href="#">WEB DESIGN</a>
-                <a href="#">WEB DEVELOPER</a>
-                <a href="#">WEB ANALYST</a>
+                <a href="/courses.html#WebDesigner">WEB&nbsp;DESIGN</a>
+                <a href="/courses.html#WebDeveloper">WEB&nbsp;DEVELOPER</a>
+                <a href="/courses.html#DataAnalyst">WEB&nbsp;ANALYST</a>
               </div>
            </li>
           </div>
@@ -38,25 +39,19 @@
           <li class="nav-item">
             <a href="students.html">STUDENTS<i class="fa fa-angle-down"></i></a>
               <div class = "dropdown-content">
-                <a href="/students.html#Sophia">Sophia</a>
-                <a href="/students.html#Dane">Dane</a>
-                <a href="/students.html#Nina">Nina</a>
+                <a href="/students.html#Sophia">SOPHIA</a>
+                <a href="/students.html#Dane">DANE</a>
+                <a href="/students.html#Nina">NINA</a>
               </div>
           </li>
         </div>
 
         <div class="dropdown">
           <li class="nav-item">
-            <a href="contact.html">CONTACT<i class="fa fa-angle-down"></i></a>
-              <div class = "dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
+            <a href="contact.html">CONTACT</a>
           </li>
         </div>
-
-        </ul> 
+       </ul> 
 
         <ul class="nav-things">
 
@@ -76,11 +71,20 @@
            </li>
 
            <li class="navApplyButton">
-            <button type="button">APPY NOW</button>
+            <button type="button">APPLY NOW</button>
            </li>
 
         </ul>
-
+       <div class="resNavSection">
+        <div class="res-dropdown">
+        <div class="burgerMenu" ><i class="fa fa-bars"></i></div>
+          <div class = "res-dropdown-content">
+          <a href="/courses.html">COURSES</a>
+          <a href="/students.html">STUDENTS</a>
+          <a href="/contact.html">CONTACT</a>
+          </div>
+        </div>
+      </div>
        </nav>
 
      </header>
@@ -95,10 +99,53 @@
             </div>
           </div>
       </section>
+
     <section>
-      <div class='button-div'>
-      <a href="contact.html" title="contact-remote"><button class="apply-index-button">APPLY NOW</button></a>
+     
+    <div class='button-div'>
+      <button id="apply-now-modal" class="apply-index-button">APPLY NOW</button>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-inner content center">
+
+          <p class="modal-title-font">Thanks for applying !</p>
+            <div class="separator-div-modal"></div>
+          <p>Please leave us your name and email address below, and we will contact you very soon :-)</p>
+          
+          <div class="separator-div-modal"></div>
+
+          <form action="" class ="contact-form-index" method="get" id="usrform">
+            <div class="contact-fields">
+                <label for="name" name="name" ></label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </div> 
+            <div class="separator-div-modal-form"></div>
+            <div class="contact-fields">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required> 
+            </div> 
+            <div class="contact-fields">
+          </form>
+
+          <div class="separator-div-modal"></div>
+          
+          <div class="modal-two-buttons">
+
+            <div class="close-button">
+              <button class="close-button-modal-index" id="close-modal">x close</button>
+            </div>
+
+            <div class="send-button">
+              <button class="send-button-modal-index" id="close-modal" id="send-modal">send !</button>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </div>
+
+
     </section>
     <section>
         <div class="separator-div"></div>

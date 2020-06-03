@@ -4,8 +4,13 @@ hr {
 
 /* Changes to Leonors CSS */
 
+.text-abovex {
+    display: flex;
+    justify-content: space-around;
+}
 
-.index-h2 .cspage-courses-section{
+
+.index-h2 .cspage-courses-section {
     text-decoration: none;
     font-size: 125%;
     font-weight: 300;
@@ -13,92 +18,288 @@ hr {
     padding: 2%;
    }
 
-/* --Courses Carousel section --*/
-/* 
-.separator-div{
-    height:150px;
+.separator-div-supersmall{
+    height:30px;
 }
-
-.index-h2-container{
-    justify-content: center;
-    text-align: center;
-    padding: 0.5%;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 0.2rem solid #FFD33A;
-    width : min-content;
-}
-
-.index-h2 .courses-section{
-    justify-content: center;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 150%;
-    font-weight: 300;
-    color:#261C52;
-    padding: 2%;
-   }
-
-.separator-div-small{
-    height:70px;
-}
-
-.box-container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.specific-course-title{
-    text-decoration: none;
-    color:#261C52;
-}
-
-.courses-box{
-    width : 25%;
-    text-align: center;
-    justify-content: center;
-}
-
-.courses-box-img{
-    width : 100%;
-    border-radius: 20px;
-}
-
-.courses-box-title{
-    padding: 5%;
-    font-size: 150%;
-    font-weight: 380;
-}
-
-.courses-box-p{
-    padding: 5%;
-    font-size: 120%;
-    font-weight: 380;
-} */
 
 /* --End of Courses Carousel section --*/
 
 /* individal course section */
 
-.cspage-h2-container{
-    text-align: center;
-    border-bottom: 0.2rem solid #FFD33A;
-}
-
 .cspage-course-titel{
     display: flex;
-    align-items: center;
-    align-content: space-around;
+    justify-content: center;
     padding: 0em 13em; 
 }
 
+.cspage-h2-container{
+    border-bottom: 0.2rem solid #FFD33A;
+    height: min-content;
+    padding-bottom: 1%;
+}
+
+
 .cspage-description {
+    width: 90%; 
     font-size: 1.7em;
     padding-left: 3em; 
-    padding-right: 5em; 
     line-height: 130%;
 
 }
 
 
+/* section with course description */
+.container-pics {
+    flex-wrap: wrap;
+}
+
+/* course-side */
+/* Webdesign */
+.course-part{
+    position: relative; 
+    width: 100%; 
+    height: 700px; 
+}
+
+.webdesign-background-sqare {
+    position: absolute; 
+    border: 4px solid #261C52;
+    border-left-style: none;
+    top: 30%; 
+    left: 30%; 
+    height: 50%; 
+    width: 40%; 
+}
+
+.course-pics{
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 20px; 
+    border: 4px solid #261C52;  
+    border-radius: 20px; 
+}
+
+.webdesign-first-pic {
+    position: absolute; 
+    padding: 0;  
+    width: 31%;
+    left: 20%;
+}
+
+.webdesign-text-box{
+    position: absolute; 
+    padding: 1em; 
+    font-size: 1.25em;
+    width: 18%; 
+    border: 4px solid #261C52; 
+    border-radius: 20px;
+    background-color: white; 
+    top: 50%; 
+    left: 60%; 
+}
+
+.webdesign-second-pic{
+    position: absolute;
+    padding: 0; 
+    width: 15%;    
+    top: 65%; 
+    left: 30%;
+}
+
+/* Buttons beneath Courses */
+
+
+.subtitle-textbox{
+    background-color:#eef091; 
+    font-size: 1.5em;
+    padding: 1em; 
+    margin: auto;
+    text-align: center;
+    width: 50%; 
+    border-radius: 20px;
+}
+
+.course-buttons{
+    width: 50%; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.apply-button-div :hover, .syllabus-button-div :hover{
+    color :#F3F1E9;
+    background-color:#261C52 ;
+    text-decoration: none;
+}
+
+.apply-course-button{
+    padding: 10%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    border-style: none;
+    background-color: #ffd33a ;
+    text-decoration: none; 
+}
+
+.syllabus-course-button{
+    padding: 10%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    border-style: none; 
+    background-color: #F3F1E9 ;
+    color: #261C52; 
+    text-decoration: none;
+    border: 4px solid #261C52; 
+    border-radius: 20px;
+}
+
+/* course-side */
+/* Developer */
+
+.dev-background-sqare {
+    position: absolute; 
+    border: 4px solid #261C52;
+    border-right-style: none;
+    top: 30%; 
+    left: 30%; 
+    height: 50%; 
+    width: 40%; 
+}
+
+.dev-pics{
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 20px; 
+    border: 4px solid #261C52;  
+    border-radius: 20px; 
+}
+
+.dev-first-pic {
+    position: absolute; 
+    padding: 0;  
+    width: 15%;
+    left: 65%; 
+}
+
+.dev-text-box{
+    position: absolute; 
+    padding: 1em; 
+    font-size: 1.25em;
+    width: 20%; 
+    border: 4px solid #261C52; 
+    border-radius: 20px;
+    background-color: white; 
+    top: 40%; 
+    left: 20%; 
+}
+
+.dev-second-pic{
+    position: absolute;
+    padding: 0; 
+    width: 20%;     
+    top: 59%; 
+    left: 50%;
+}
+
+/* Webdesign */
+
+.data-background-sqare {
+    position: absolute; 
+    border: 4px solid #261C52;
+    border-left-style: none;
+    top: 30%; 
+    left: 30%; 
+    height: 50%; 
+    width: 40%; 
+}
+
+.data-first-pic {
+    position: absolute; 
+    padding: 0;  
+    width: 31%;
+    left: 20%;
+}
+
+.data-text-box{
+    position: absolute; 
+    padding: 1em; 
+    font-size: 1.25em;
+    width: 18%; 
+    border: 4px solid #261C52; 
+    border-radius: 20px;
+    background-color: white; 
+    top: 50%; 
+    left: 60%; 
+}
+
+.data-second-pic{
+    position: absolute;
+    padding: 0; 
+    width: 15%;    
+    top: 65%; 
+    left: 30%;
+}
+
+@media (max-width: 768px){
+   .cspage-course-titel {
+        padding: 0em 0em;
+        flex-direction: column; } 
+
+    .index-h2 {
+        text-align: center; 
+        }
+
+    .cspage-description {
+        padding-top: 1.5em; 
+        font-size: 1.3em;
+        font-weight: 300; 
+    }
+
+    .webdesign-background-sqare, .dev-background-sqare, .data-background-sqare {
+        display: none; 
+    }
+
+    .webdesign-first-pic, .webdesign-second-pic, .dev-first-pic, .dev-second-pic, .data-first-pic, .data-second-pic {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+        padding: 40px 0px; 
+        }
+
+    .webdesign-text-box, .dev-text-box, .data-text-box {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+    }
+
+   
+    .subtitle-textbox {
+        position: static; 
+        width: 55%; 
+        margin: auto; 
+        margin-top: 60px; 
+        font-size: 1.1em;
+        font-weight: 300; 
+        text-align: left; 
+    }
+
+    .course-buttons {
+        width: 100%;  
+    }
+
+
+    .course-pics {
+        border: none; 
+    }
+/* 
+    .dev-first-pic {
+      
+    } */
+
+}
