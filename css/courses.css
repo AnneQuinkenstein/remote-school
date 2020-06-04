@@ -222,6 +222,7 @@ hr{
     padding: 0;  
     width: 15%;
     left: 65%; 
+    top: 10%; 
 }
 
 .dev-text-box{
@@ -259,8 +260,9 @@ hr{
 .data-first-pic {
     position: absolute; 
     padding: 0;  
-    width: 31%;
+    width: 21%;
     left: 20%;
+    top: 10%; 
 }
 
 .data-text-box{
@@ -279,7 +281,7 @@ hr{
     position: absolute;
     padding: 0; 
     width: 15%;    
-    top: 65%; 
+    top: 60%; 
     left: 30%;
 }
 
