@@ -67,8 +67,7 @@ body{
     cursor:pointer; 
     color: #F4F0EA; 
     background-color:  #261C52; 
-    border-radius: 12px; 
-
+    border-radius: 10px; 
 }
 
 .nav-item a {
