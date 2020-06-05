@@ -103,20 +103,28 @@
    /* margin-bottom: 15px;*/
 }
 
-#form-button{
-    border: none;
-    border-radius: 0.5em;
-    background-color: #FFD33A;
-    padding: 10px 20px;
-    font-size: 16px;
-    width: 20%;
-    align-self: center;
-}
-
 .form-filed-condition{
     text-align: end;
     font-size: 12px;
 }
+
+#form-button{
+    border: none;
+    border-radius: 16px;
+    background-color: #FFD33A;
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    font-weight: 200;
+    width: 20%;
+    align-self: center;
+    text-align: center;
+}
+
+#form-button:hover{
+    color: #F3F1E9;
+    background-color: #261C52;
+}
+/*styling form*/
 
 .staff-img{
     width: 100%;
@@ -164,7 +172,6 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     /*text-align: center;*/
-    
 } 
 
 .staff-name-text{
@@ -252,6 +259,10 @@
     .staff-info{
         margin: 4% 0;
     }
+
+    #form-button{
+        width: 30%;
+    }
 }
 
 @media (min-width: 768px) and (max-width:992px) {
@@ -263,6 +274,7 @@
 
     .contact-wrapper{
         padding-top: 140px;
+        padding-bottom: 140px;
     }
     .contact-form{
         width: 100%;
@@ -311,6 +323,10 @@
     }
     .staff-info{
         margin: 4% 0;
+    }
+
+    #form-button{
+        width: 25%;
     }
 }
     
@@ -363,7 +379,7 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 352px){
     .contact-title{
         display: none;
  
@@ -371,5 +387,89 @@
     .contact-title-small{
         font-size: 1.9rem;
         display: inline;
+    }
+
+    .staff-possition{
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 0.563rem;
+        font-weight: 900;
+    }
+
+    .staff-about{
+        text-align: center;
+        font-size: 0.688rem;
+        line-height: 0.688rem;
+        font-weight: lighter;
+    }
+
+    .staff-name-text{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    #form-button{
+        font-size: 0.875rem;
+        width: 40%;
+    }
+
+    .contact-form {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    } 
+
+    .contact-content{
+        margin-top: 50px;
+    }
+
+    .contact-wrapper{
+        padding-top: 140px;
+        padding-bottom:140px;
+    }
+}
+
+
+@media screen and (min-width: 352px) and (max-width: 575px){
+    .contact-title{
+        display: none;
+ 
+    }
+    .contact-title-small{
+        font-size: 1.9rem;
+        display: inline;
+    }
+
+    .staff-possition{
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 0.625rem;
+        font-weight: 900;
+    }
+
+    .staff-about{
+        text-align: center;
+        font-size: 0.688rem;
+        line-height: 0.75rem;
+        font-weight: lighter;
+    }
+
+    .staff-name-text{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    #form-button{
+        font-size: 0.875rem;
+        width: 35%;
+    }
+
+    .contact-form {
+        margin-bottom: 0px;
+        padding-bottom: 25px;
+    } 
+    
+    .contact-wrapper{
+        padding-top: 140px;
+        padding-bottom:140px;
     }
 }
