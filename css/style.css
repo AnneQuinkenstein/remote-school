@@ -272,7 +272,7 @@ footer{
 
 .social-list li{
     margin: 0;
-    /*padding: 5px 0;*/
+    padding: 0 15px 0 0;
     background-color: #261C52;
 }
 
@@ -283,7 +283,7 @@ footer{
 .social-list li a:nth-child(1){
     padding-left: 0px;
 }
-.social-list li a:last-child){
+.social-list li a:last-child{
     padding-right: 0px;
 }
 
@@ -365,6 +365,127 @@ footer{
   right: 0; 
 }
 
+/*Responsive footer max-width: 768px*/
+footer{
+    flex-direction: column;
 }
 
+.footer-col li a{
+    padding-left: 0;
+    padding-right: 3%;
+}
+.img-logo{
+    width: 40%;
+}
+.footer-logo{
+    padding-bottom: 15px;
+    align-self: start;
+    padding-left: 3%;
+}
+
+.footer-col{
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-col li{
+    padding: 3px 0;
+}
+
+.footer-col li a, .links-social-network p{
+    font-size: 1rem; 
+    line-height: 1.125rem;
+}
+
+.content-footer-list, .links-social-network{
+    align-self: start;
+    width: 100%;
+    padding: 20px 5%;
+}
+  
+.social-list{
+    justify-content: space-between;
+    width: 60%;
+}
+
+.social-list li{
+    padding: 0 5px 0 0;
+}
+/* end Responsive footer max-width: 768px*/
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    /* Responsive footer 992px and 1199px*/
+    .footer-logo{
+        padding-bottom: 15px;
+        align-self: start;
+        padding-left: 2%;
+    }
+    
+  
+    .footer-col{
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 0px;
+      padding-bottom: 20px;
+     
+    }
+  
+    .footer-col li{
+        padding: 3px 0;
+    }
+  
+    /*.content-footer-list, .links-social-network{
+      align-self: start;
+    }*/
+  
+   .links-social-network{
+      padding: 20px 25px;
+      align-self: start;
+      width: 40%;
+      align-self: start;
+     }
+
+    .content-footer-list{
+      width: 30%;
+    } /* end Responsive footer 992px and 1199px*/
+}
+
+@media  (min-width: 768px) and (max-width:992px){
+/* Responsive footer 992px */
+  .footer-logo{
+      padding-bottom: 15px;
+      /*align-self: start;*/
+      padding-left: 2%;
+      align-items: center;
+  }
+
+  .img-logo{
+    width: 60%;
+    /*padding-left: 2%;*/
+   }
+  .footer-col{
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .footer-col li{
+      padding: 3px 0;
+  }
+
+  .content-footer-list, .links-social-network{
+    align-self: start;
+    width: 50%;
+  }
+
+ .links-social-network{
+    padding: 20px 25px;
+   }
+   
+ /* end Responsive footer 992px */
+}
 

@@ -128,9 +128,9 @@
     flex-direction: column;
 }
 
-.staff-link{
+/*.staff-link{
 
-}
+}*/
 .staff-info:hover .img-overlay-effect{
     height: 100%;
 }
@@ -188,6 +188,7 @@
     font-weight: lighter;
 }
 @media (max-width: 767px) {
+   
     .contact-content{
         flex-direction: column;
     }
@@ -195,9 +196,11 @@
     .contact-sections:nth-child(2){
         width: 90%;
         justify-content: space-between; 
-
     }
 
     .form-wrapper{
         width: 90%;
   }
+}
+
+
