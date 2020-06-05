@@ -73,6 +73,7 @@ body{
 .nav-item a {
     text-decoration: none;
     color: #261C52; 
+    background-color: #F4F0EA;
     }
   
 .nav-item a.active {
@@ -158,14 +159,13 @@ button{
     display: block;
     background-color: #F4F0EA;
     text-align: left;
-    border-radius: 6px; 
-    
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color:  #261C52; 
     color: #F4F0EA; 
+    padding: 1em; 
 }
 
 /* Show the dropdown menu on hover */
