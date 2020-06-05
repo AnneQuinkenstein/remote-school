@@ -12,7 +12,7 @@ for (let i=0; i<openmodal1.length; i++){
       }
     }
   });
-};
+}
 
 let closemodal1 = document.getElementsByClassName('close-modal-1');
 for(let k=0; k<closemodal1.length; k++){
@@ -20,8 +20,8 @@ for(let k=0; k<closemodal1.length; k++){
     for(let l=0; l<closemodal1.length;l++){
       modal1[l].style.display = "none"; 
     }
-})
-};
+});
+}
 
 
 /* END OF COURSES PAGE MODAL COURSES */
