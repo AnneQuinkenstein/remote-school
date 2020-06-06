@@ -41,7 +41,6 @@ body{
 
 .nav-logo img{
     width: 11em;
-    align: center; 
 }
 
 .nav-links, .nav-things {
@@ -294,7 +293,7 @@ footer{
     /* navbar-section */
 
 .navbar {
-    justify-content: space-between;
+       justify-content: space-between;
 }
 
 .nav-logo img {
