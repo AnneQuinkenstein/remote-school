@@ -178,11 +178,25 @@ body{
 
 /* ---Responsive Design EXTRA SMALL --- */
 
-@media screen and (min-width: 352px) and (max-width: 575px){
+@media screen and (min-width: 450px) and (max-width: 575px){
 
     .modal {
         font-size: 1.1em;
         top : 30%;
+    }
+
+}
+
+/* ---End of Responsive Design EXTRA SMALL --- */
+
+
+/* ---Responsive Design EXTRA SMALL --- */
+
+@media screen and (max-width: 449px){
+
+    .modal {
+        font-size: 0.9em;
+        top : 20%;
     }
 
 }

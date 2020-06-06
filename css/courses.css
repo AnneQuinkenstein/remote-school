@@ -366,6 +366,14 @@ hr{
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .separator-div{
+        height: 135px;
+    }
+    
+    .index-h2 {
+        font-size: 2.1em;
+    }
+
     .course-part-1{
         height: 800px; 
     }
@@ -443,6 +451,40 @@ hr{
 
 @media screen and (min-width: 691px) and  (max-width: 767px) {
 
+    /* --Courses Carousel section --*/
+
+    .separator-div{
+        height:120px;
+    }
+
+    .index-h2 {
+        font-size: 2em;
+        text-align: center; 
+    }
+
+    .separator-div-small{
+        height:60px;
+    }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses-box{
+        width : 55%;
+        padding: 2%;
+        margin: 1%;
+    }
+
+    .courses-box-title{
+        padding: 5%;
+        font-size: 1.5em;
+        font-weight: 380;
+    }
+
+    /* --End of Courses Carousel section --*/  
+
     .course-part-1{
         height: 780px; 
     }
@@ -463,10 +505,6 @@ hr{
         padding: 0em 0em;
         flex-direction: column; 
     } 
-
-    .index-h2 {
-        text-align: center; 
-        }
 
     .cspage-description {
         padding-top: 1.5em; 
@@ -520,6 +558,41 @@ hr{
 /* ---Responsive Design SMALL --- */
 
 @media screen and (min-width: 576px) and  (max-width: 690px) {
+
+    /* --Courses Carousel section --*/
+
+    .separator-div{
+        height:120px;
+    }
+
+    .index-h2 {
+        font-size: 2em;
+        text-align: center; 
+    }
+
+    .separator-div-small{
+        height:60px;
+    }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses-box{
+        width : 55%;
+        padding: 2%;
+        margin: 1%;
+    }
+
+    .courses-box-title{
+        padding: 5%;
+        font-size: 1.5em;
+        font-weight: 380;
+    }
+
+
+    /* --End of Courses Carousel section --*/  
 
     .course-part-1{
         height: 740px; 
@@ -595,6 +668,40 @@ hr{
 
 @media screen and (min-width: 526px) and (max-width: 575px){
 
+    /* --Courses Carousel section --*/
+
+    .separator-div{
+        height:120px;
+    }
+
+    .index-h2 {
+        font-size: 1.9em;
+        text-align: center; 
+    }
+
+    .separator-div-small{
+        height:60px;
+    }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses-box{
+        width : 53%;
+        padding: 2%;
+    }
+
+    .courses-box-title{
+        padding: 5%;
+        font-size: 1.4em;
+        font-weight: 380;
+    }
+
+
+    /* --End of Courses Carousel section --*/  
+
     .course-part-1{
         height: 650px; 
     }
@@ -614,10 +721,6 @@ hr{
    .cspage-course-titel {
         padding: 0em 0em;
         flex-direction: column; } 
-
-    .index-h2 {
-        text-align: center; 
-        }
 
     .cspage-description {
         padding-top: 1.5em; 
@@ -668,7 +771,41 @@ hr{
 
 /* ---Responsive Design EXTRA EXTRA SMALL --- */
 
-@media screen and (min-width: 352px) and (max-width: 525px){
+@media screen and (min-width: 450px) and (max-width: 525px){
+
+    /* --Courses Carousel section --*/
+
+    .separator-div{
+        height:100px;
+    }
+
+    .index-h2 {
+        font-size: 1.9em;
+        text-align: center; 
+    }
+
+    .separator-div-small{
+        height:80px;
+    }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses-box{
+        width : 60%;
+        padding: 4%;
+    }
+
+    .courses-box-title{
+        padding: 5%;
+        font-size: 1.3em;
+        font-weight: 365;
+    }
+
+
+    /* --End of Courses Carousel section --*/  
 
     .course-part-1{
         height: 630px; 
@@ -738,3 +875,127 @@ hr{
 }
 
 /* ---End of Responsive Design EXTRA EXTRA SMALL --- */
+
+
+/* ---Responsive Design EXTRA EXTRA EXTRA !! SMALL --- */
+
+@media screen and (max-width: 449px){
+
+/* --Courses Carousel section --*/
+
+.index-h2 {
+    font-size: 1.6em;
+    text-align: center; 
+}
+
+.box-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-box{
+    width : 62%;
+    padding: 5%;
+}
+
+.courses-box-title{
+    padding: 5%;
+    font-size: 1.2em;
+    font-weight: 350;
+}
+
+/* --End of Courses Carousel section --*/
+
+.separator-div{
+    height:100px;
+}
+
+.course-part-1{
+    height: 555px; 
+}
+
+.course-part-2{
+    height: 660px; 
+}
+
+.course-part-3{
+    height: 600px; 
+}
+
+.separator-div-afterText{
+    height:5px;
+}
+
+.cspage-course-titel {
+    padding: 0em 0em;
+    flex-direction: column; 
+} 
+
+.cspage-description {
+    padding-top: 1.5em; 
+    font-size: 1.1em;
+    font-weight: 300; 
+}
+
+.webdesign-background-sqare, .dev-background-sqare, .data-background-sqare {
+    display: none; 
+}
+
+.webdesign-first-pic, .webdesign-second-pic, .dev-first-pic, .dev-second-pic, .data-first-pic, .data-second-pic {
+    position: static; 
+    width: 60%; 
+    margin: auto; 
+    padding: 40px 0px; 
+    }
+
+.webdesign-text-box, .dev-text-box, .data-text-box {
+    position: static; 
+    width: 60%; 
+    margin: auto; 
+    font-size: 1em;
+}
+
+.subtitle-textbox {
+    position: static; 
+    width: 60%; 
+    margin: auto; 
+    margin-top: 60px; 
+    font-size: 0.9em;
+    font-weight: 300; 
+    text-align: left; 
+}
+
+.separator-div-small{
+    height:70px;
+}
+
+.separator-div-supersmall{
+    height:40px;
+}
+
+.course-buttons {
+    width: 80%;
+    display:flex; 
+    flex-direction: column; 
+}
+
+.apply-button-div{
+    width : 50%;
+    margin-bottom:4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extra-button-syl-div{
+    width : 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course-pics {
+    border: none; 
+}
+
+
+
+/* ---END OF  Responsive Design EXTRA EXTRA EXTRA !! SMALL --- */

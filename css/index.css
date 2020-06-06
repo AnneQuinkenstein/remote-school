@@ -180,9 +180,6 @@ body{
 
 }
 
-
-
-
 /* ---End of Responsive Design LARGE --- */
 
 
@@ -314,7 +311,7 @@ body{
 
 /* ---Responsive Design EXTRA SMALL --- */
 
-@media screen and (min-width: 352px) and (max-width: 575px){
+@media screen and (min-width: 450px) and (max-width: 575px){
 
     /* -- Banner section --*/
   
@@ -388,6 +385,93 @@ body{
         margin: 5%;
         font-size: 1.2em;
         font-weight: 380;
+    }
+
+    /* --End of Courses Carousel section --*/  
+
+}
+
+/* ---End of Responsive Design EXTRA SMALL --- */
+
+
+
+
+/* ---Responsive Design EXTRA EXTRA SMALL --- */
+
+@media screen and (max-width: 449px){
+
+    /* -- Banner section --*/
+  
+    .banner-img{
+        display: none;
+    }
+
+    .banner-img-small{
+        width: 100%;
+        position: relative;
+    }
+
+    .title-text-container{
+        width : 60%;
+        height : 60%;
+    }
+    
+    .banner-logo{
+        height: 30%;
+    }
+    
+    .banner-slogan{
+        font-size: 1em;
+    }
+    
+    /* --End of Banner section --*/
+
+    /* Apply Button --*/
+
+    .apply-index-button{
+        padding: 3%;
+        font-size: 0.8em;
+        margin-top : -8%;
+    }
+
+
+    /* End of Apply Button --*/
+
+    /* --Courses Carousel section --*/
+
+    .separator-div{
+        height:120px;
+    }
+
+    .index-h2 {
+        font-size: 1.7em;
+    }
+
+    .separator-div-small{
+        height:60px;
+    }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses-box{
+        width : 62%;
+        padding: 5%;
+    }
+
+    .courses-box-title{
+        padding: 5%;
+        font-size: 1.2em;
+        font-weight: 350;
+    }
+
+    .courses-box-p{
+        padding: 2%;
+        margin: 5%;
+        font-size: 1em;
+        font-weight: 350;
     }
 
     /* --End of Courses Carousel section --*/  
