@@ -190,7 +190,7 @@ body{
 
 /* ---Responsive Design EXTRA EXTRA SMALL --- */
 
-@media screen and (min-width: 352px) and (max-width: 525px){
+@media screen and (min-width: 450px) and (max-width: 525px){
     .modal1 {
         font-size: 1.1em;
         margin-left: -37%;
@@ -200,6 +200,24 @@ body{
 
     .modal1-title-font{
         font-size: 1.3em;
+    }
+    
+}
+
+/* ---End of Responsive Design EXTRA EXTRA SMALL --- */
+
+/* ---Responsive Design EXTRA EXTRA SMALL --- */
+
+@media screen and (max-width: 449px){
+    .modal1 {
+        font-size: 0.9em;
+        margin-left: -5%;
+        margin-right: -5%;
+        margin-top: -30%;
+    }
+
+    .modal1-title-font{
+        font-size: 1.1em;
     }
     
 }
