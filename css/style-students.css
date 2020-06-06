@@ -504,7 +504,7 @@ hr{
 
 /* ---Responsive Design EXTRA SMALL --- */
 
-@media screen and (min-width: 352px) and (max-width: 575px){
+@media screen and (min-width: 450px) and (max-width: 575px){
 
     .students {
         font-size: 2em;
@@ -602,3 +602,103 @@ hr{
 }
 
 /* ---End of Responsive Design EXTRA SMALL --- */
+
+
+
+/* ---Responsive Design EXTRA EXTRA SMALL --- */
+
+@media screen and (max-width: 449px){
+
+    .separator-div{
+        height:120px;
+    }
+
+    .separator-div-small{
+        height:70px;
+    }
+
+    .separator-div-students{
+        height: 90px;
+    }
+
+    .student-h2-container{
+        display: none;
+    }
+
+    .student-h2-container-ex-small{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 0.2rem solid #FFD33A;
+        padding-bottom: 1%;
+        white-space: nowrap;
+        width : min-content;
+        font-size: 0.9em;
+    }
+
+    .students-ex-small {
+        font-size: 1.9em;
+        font-weight: 300;
+        color:#261C52;
+        text-decoration: none;
+       }
+
+    .box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .students-box{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    
+    .student-portrait{
+        width : 100%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0%;
+        margin-bottom: -40%;
+    }
+     
+    .student-text{
+        width : 90%;
+        flex-direction : column;
+    }
+    
+    .student-testimonial{
+        padding: 10%;
+        padding-top : 55%;
+    }
+    
+    .student-link{
+        padding : 10%;
+    }
+
+    .box-container-Dane{
+        display: none;
+    }
+       
+    .student-portrait-Dane-small{
+        width : 100%;
+        margin-bottom: -40%;
+    }
+
+    .student-text-Dane-small{
+        width : 90%;
+    }
+    
+    .student-testimonial-Dane-small{
+        padding: 10%;
+        padding-top : 55%;
+    }
+    
+    .student-link-Dane-small{
+        padding : 10%;
+    }
+
+}
+
+/* ---End of Responsive Design EXTRA EXTRA SMALL --- */
