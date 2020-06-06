@@ -672,14 +672,23 @@ hr{
 
     .course-part-1{
         height: 630px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .course-part-2{
         height: 740px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .course-part-3{
         height: 690px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .separator-div-afterText{
@@ -708,7 +717,6 @@ hr{
         position: static; 
         width: 55%; 
         margin: auto; 
-        padding: 40px 0px; 
         }
 
     .webdesign-text-box, .dev-text-box, .data-text-box {
@@ -721,7 +729,6 @@ hr{
         position: static; 
         width: 55%; 
         margin: auto; 
-        margin-top: 60px; 
         font-size: 1.1em;
         font-weight: 300; 
         text-align: left; 
@@ -735,6 +742,13 @@ hr{
         border: none; 
     }
 
+    .course-buttons {
+        width: 95%;  
+    }
+
+    .separator-div {
+        height: 70px; 
+    }
 }
 
 /* ---End of Responsive Design EXTRA EXTRA SMALL --- */

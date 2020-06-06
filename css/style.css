@@ -294,7 +294,7 @@ footer{
     /* navbar-section */
 
 .navbar {
-    justify-content: space-between;
+       justify-content: space-between;
 }
 
 .nav-logo img {
