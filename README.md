@@ -1,20 +1,25 @@
-# remote-school
-project
 
-SCHOOL NAME BRAINSTORM :
-- HOME SCHOOL, the remote school that makes you feel at home, because you actually are !
-- MKDIR SCHOOL
-- CD SCHOOL
-- COCOON SCHOOL
-- TOUCH SCHOOL
-- TECH SCHOOL
-- R(R) SCHOOL ---- remote school
-- Welcome to the FUTURE SPACE SCHOOL ; FUTURE HOME 
-- TRUE
-- PURE
-- ONLINE 
-- LIVE
-- NEW UNIVERSE
-- UNIVERSAL SCHOOL
 
-pictures -> unsplash.com
+  <h3 align="center">REMOTE SCHOOL</h3>
+
+<br />
+<p align="center">
+  <a href="https://annequinkenstein.github.io/remote-school/">
+    <img src="https://i.imgur.com/Ed4rBbY.jpg" alt="Logo" width="300" height="160">
+  </a>
+
+  <p align="center">
+    
+Our mission : create an attractive website for the Remote School
+Our deadline : June the 6th.
+Our team : Anne, Diana & Leonore
+
+    <br />
+    <br />
+    <a href="https://annequinkenstein.github.io/remote-school/">Demo</a>
+    ·
+    <a href="https://github.com/AnneQuinkenstein/remote-school">Code</a>
+  </p>
+</p>
+
+-> pictures from [unsplash](https://unsplash.com/)
