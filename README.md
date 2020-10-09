@@ -21,7 +21,7 @@ Our team : Anne, Diana & Leonore  <br />
     <br />
     <a href="https://annequinkenstein.github.io/remote-school/">Demo</a>
     ·
-    <a href="https://github.com/AnneQuinkenstein/remote-school">Code</a>
+    <a href="https://app.box.com/s/hco4oa2vede6igc1xfrg3lqy15sgep1f">Presentation</a>
 
 </p>
 
