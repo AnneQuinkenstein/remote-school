@@ -114,7 +114,7 @@
     background-color: #FFD33A;
     padding: 10px 20px;
     font-size: 1.125rem;
-    font-weight: 00;
+    font-weight: 400;
     width: 20%;
     align-self: center;
     text-align: center;
@@ -387,7 +387,6 @@
     .contact-title-small{
         font-size: 1.9rem;
         display: inline;
-        line-height: 2.25rem !important;
     }
 
     .staff-possition{
@@ -395,10 +394,6 @@
         text-align: center;
         font-size: 0.563rem;
         font-weight: 900;
-    }
-    
-    .contact-title-small-first{
-        border: none;
     }
 
     .staff-about{
@@ -441,9 +436,14 @@
     }
     .contact-title-small{
         font-size: 1.9rem;
-        display: inline;
+        line-height: 2.25rem !important;
+        display: inline ;
     }
 
+    .contact-title-small-first{
+        border: none;
+    
+    }
     .staff-possition{
         margin-bottom: 8px;
         text-align: center;
